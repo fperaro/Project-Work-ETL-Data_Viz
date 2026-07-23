@@ -1,10 +1,11 @@
 [
   {
     "Nome": "OSPEDALE CARLO ONDOLI DI ANGERA",
-    "Indirizzo": "VIA BORDINI, 9",
     "Città": "ANGERA",
     "Provincia": "VA",
+    "Indirizzo": "VIA BORDINI, 9 - ANGERA (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -70,10 +71,11 @@
   },
   {
     "Nome": "OSPEDALE DEI BAMBINI DI BRESCIA",
-    "Indirizzo": "VIA DEL MEDOLO, 2",
     "Città": "BRESCIA",
     "Provincia": "BS",
+    "Indirizzo": "VIA DEL MEDOLO, 2 - BRESCIA (BS)",
     "Ente": "ASST SPEDALI CIVILI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -142,10 +144,11 @@
   },
   {
     "Nome": "OSPEDALE FILIPPO DEL PONTE DI VARESE",
-    "Indirizzo": "VIA FILIPPO DEL PONTE, 19",
     "Città": "VARESE",
     "Provincia": "VA",
+    "Indirizzo": "VIA FILIPPO DEL PONTE, 19 - VARESE (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -216,10 +219,11 @@
   },
   {
     "Nome": "IRCCS MAUGERI LUMEZZANE",
-    "Indirizzo": "VIA GIUSEPPE MAZZINI, 129",
     "Città": "LUMEZZANE",
     "Provincia": "BS",
-    "Ente": null,
+    "Indirizzo": "VIA GIUSEPPE MAZZINI, 129 - LUMEZZANE (BS)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -318,15 +322,16 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.6513888,
-    "Longitudine": 10.2549352
+    "Latitudine": 45.6512517,
+    "Longitudine": 10.2583022
   },
   {
     "Nome": "OSPEDALE DI SEREGNO",
-    "Indirizzo": "VIA VERDI, 2",
     "Città": "SEREGNO",
     "Provincia": "MB",
+    "Indirizzo": "VIA VERDI, 2 - SEREGNO (MB)",
     "Ente": "ASST BRIANZA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "DIETOLOGIA E NUTRIZIONE CLINICA"
@@ -368,10 +373,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI GARDONE VAL TROMPIA",
-    "Indirizzo": "VIA PAPA GIOVANNI XXIII, 4",
     "Città": "GARDONE VAL TROMPIA",
     "Provincia": "BS",
+    "Indirizzo": "VIA PAPA GIOVANNI XXIII, 4 - GARDONE VAL TROMPIA (BS)",
     "Ente": "ASST SPEDALI CIVILI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA",
@@ -437,10 +443,11 @@
   },
   {
     "Nome": "OSPEDALE POLICLINICO SAN MATTEO DI PAVIA",
-    "Indirizzo": "VIALE CAMILLO GOLGI, 19",
     "Città": "PAVIA",
     "Provincia": "PV",
-    "Ente": null,
+    "Indirizzo": "VIALE CAMILLO GOLGI, 19 - PAVIA (PV)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -660,10 +667,11 @@
   },
   {
     "Nome": "OSPEDALE TREVIGLIO - CARAVAGGIO",
-    "Indirizzo": "PIAZZALE OSPEDALE, 1",
     "Città": "TREVIGLIO",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZALE OSPEDALE, 1 - TREVIGLIO (BG)",
     "Ente": "ASST BERGAMO OVEST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -794,10 +802,11 @@
   },
   {
     "Nome": "OSPEDALE DI SONDALO",
-    "Indirizzo": "VIA ZUBIANI, 33",
     "Città": "SONDALO",
     "Provincia": "SO",
+    "Indirizzo": "VIA ZUBIANI, 33 - SONDALO (SO)",
     "Ente": "ASST VALTELLINA E ALTO LARIO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -924,10 +933,11 @@
   },
   {
     "Nome": "OSPEDALE OGLIO PO DI CASALMAGGIORE",
-    "Indirizzo": "VIA STAFFOLO, 51",
-    "Città": "VICOMOSCANO - CASALMAGGIORE",
+    "Città": "CASALMAGGIORE",
     "Provincia": "CR",
+    "Indirizzo": "VIA STAFFOLO, 51 - CASALMAGGIORE (CR)",
     "Ente": "ASST CREMONA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA",
@@ -1009,15 +1019,16 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 44.9698115,
-    "Longitudine": 10.4649865
+    "Latitudine": 44.9745281,
+    "Longitudine": 10.4599816
   },
   {
     "Nome": "OSPEDALE CIVILE LA MEMORIA DI GAVARDO",
-    "Indirizzo": "VIA ANDREA GOSA, 74",
     "Città": "GAVARDO",
     "Provincia": "BS",
+    "Indirizzo": "VIA ANDREA GOSA, 74 - GAVARDO (BS)",
     "Ente": "ASST GARDA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -1121,10 +1132,11 @@
   },
   {
     "Nome": "OSPEDALE MACEDONIO MELLONI DI MILANO",
-    "Indirizzo": "VIA MACEDONIO MELLONI, 52",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA MACEDONIO MELLONI, 52 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ENDOCRINOLOGIA E DIABETOLOGIA"
@@ -1190,10 +1202,11 @@
   },
   {
     "Nome": "OSPEDALE CARLO MIRA DI CASORATE PRIMO",
-    "Indirizzo": "VIA DELL'ORTO, 99",
     "Città": "CASORATE PRIMO",
     "Provincia": "PV",
+    "Indirizzo": "VIA DALL'ORTO, 99 - CASORATE PRIMO (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -1258,15 +1271,16 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.3123851,
-    "Longitudine": 9.0179614
+    "Latitudine": 45.3096335,
+    "Longitudine": 9.0169085
   },
   {
     "Nome": "OSPEDALE CIVILE DESTRA SECCHIA DI PIEVE DI CORIANO",
-    "Indirizzo": "VIA BUGATTE, 1",
-    "Città": "PIEVE DI CORIANO",
+    "Città": "BORGO MANTOVANO",
     "Provincia": "MN",
+    "Indirizzo": "VIA BUGATTE, 1 - BORGO MANTOVANO (MN)",
     "Ente": "ASST MANTOVA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -1359,15 +1373,16 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.035801,
-    "Longitudine": 11.1173373
+    "Latitudine": 45.0360408,
+    "Longitudine": 11.1172086
   },
   {
     "Nome": "OSPEDALE BOLOGNINI DI SERIATE",
-    "Indirizzo": "VIA PADERNO, 21",
     "Città": "SERIATE",
     "Provincia": "BG",
+    "Indirizzo": "VIA PADERNO, 21 - SERIATE (BG)",
     "Ente": "ASST BERGAMO EST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -1489,10 +1504,11 @@
   },
   {
     "Nome": "OSPEDALE DI CREMONA",
-    "Indirizzo": "VIALE CONCORDIA, 1",
     "Città": "CREMONA",
     "Provincia": "CR",
+    "Indirizzo": "VIALE CONCORDIA, 1 - CREMONA (CR)",
     "Ente": "ASST CREMONA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -1662,15 +1678,16 @@
       "Qualità dei pasti": 4.4,
       "Gestione delle visite dei parenti": 4.4
     },
-    "Latitudine": 45.1313803,
-    "Longitudine": 10.0521406
+    "Latitudine": 45.1316646,
+    "Longitudine": 10.0521668
   },
   {
     "Nome": "AUXOLOGICO SAN LUCA DI MILANO",
-    "Indirizzo": "PIAZZALE BRESCIA, 20",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "PIAZZALE BRESCIA, 20 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -1847,10 +1864,11 @@
   },
   {
     "Nome": "OSPEDALE PIO XI DI DESIO",
-    "Indirizzo": "VIA GIUSEPPE MAZZINI, 1",
     "Città": "DESIO",
     "Provincia": "MB",
+    "Indirizzo": "VIA GIUSEPPE MAZZINI, 1 - DESIO (MB)",
     "Ente": "ASST BRIANZA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA",
@@ -1963,15 +1981,16 @@
       "Qualità dei pasti": 4.6,
       "Gestione delle visite dei parenti": 4.8
     },
-    "Latitudine": 45.6264851,
-    "Longitudine": 9.1961165
+    "Latitudine": 45.6265974,
+    "Longitudine": 9.1961849
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO ALESSANDRO MANZONI DI LECCO",
-    "Indirizzo": "VIA DELL'EREMO, 9/11",
     "Città": "LECCO",
     "Provincia": "LC",
+    "Indirizzo": "VIA DELL'EREMO, 9/11 - LECCO (LC)",
     "Ente": "ASST LECCO",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -2120,15 +2139,16 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.8523467,
-    "Longitudine": 9.4133667
+    "Latitudine": 45.8536966,
+    "Longitudine": 9.4124493
   },
   {
     "Nome": "IRCCS MAUGERI PAVIA",
-    "Indirizzo": "VIA SALVATORE MAUGERI, 10",
     "Città": "PAVIA",
     "Provincia": "PV",
-    "Ente": null,
+    "Indirizzo": "VIA SALVATORE MAUGERI, 10 - PAVIA (PV)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -2283,10 +2303,11 @@
   },
   {
     "Nome": "OSPEDALE DI EDOLO",
-    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1",
     "Città": "EDOLO",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1 - EDOLO (BS)",
     "Ente": "ASST VALCAMONICA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -2325,15 +2346,16 @@
       "Chiarezza delle informazioni mediche ricevute": 5.0,
       "Chiarezza delle informazioni amministrative e organizzative": 5.0
     },
-    "Latitudine": 46.1806346,
-    "Longitudine": 10.3332567
+    "Latitudine": 46.1787559,
+    "Longitudine": 10.3311868
   },
   {
     "Nome": "VILLA BERETTA DI COSTA MASNAGA",
-    "Indirizzo": "VIA NAZARIO SAURO, 17",
     "Città": "COSTA MASNAGA",
     "Provincia": "LC",
-    "Ente": null,
+    "Indirizzo": "VIA NAZARIO SAURO, 17 - COSTA MASNAGA (LC)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "NEUROLOGIA"
@@ -2363,15 +2385,16 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 3.0
     },
-    "Latitudine": 45.7705718,
-    "Longitudine": 9.2704936
+    "Latitudine": 45.7701775,
+    "Longitudine": 9.2715865
   },
   {
     "Nome": "OSPEDALE DI CIRCOLO E FONDAZIONE MACCHI DI VARESE",
-    "Indirizzo": "VIALE LUIGI BORRI, 57",
     "Città": "VARESE",
     "Provincia": "VA",
+    "Indirizzo": "VIALE LUIGI BORRI, 57 - VARESE (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -2568,10 +2591,11 @@
   },
   {
     "Nome": "OSPEDALE DI SOMMA LOMBARDO",
-    "Indirizzo": "VIA OSPEDALE, 3",
     "Città": "SOMMA LOMBARDO",
     "Provincia": "VA",
+    "Indirizzo": "VIA OSPEDALE, 3 - SOMMA LOMBARDO (VA)",
     "Ente": "ASST VALLE OLONA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO",
@@ -2611,10 +2635,11 @@
   },
   {
     "Nome": "OSPEDALE PAPA GIOVANNI XXIII DI BERGAMO",
-    "Indirizzo": "PIAZZA OMS, 1",
     "Città": "BERGAMO",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZA OMS, 1 - BERGAMO (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -2852,10 +2877,11 @@
   },
   {
     "Nome": "OSPEDALE NIGUARDA DI MILANO",
-    "Indirizzo": "PIAZZA OSPEDALE MAGGIORE, 3",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "PIAZZA OSPEDALE MAGGIORE, 3 - MILANO (MI)",
     "Ente": "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -3069,15 +3095,16 @@
       "Qualità dei pasti": 4.4,
       "Gestione delle visite dei parenti": 4.5
     },
-    "Latitudine": 45.5109487,
-    "Longitudine": 9.1880542
+    "Latitudine": 45.5107852,
+    "Longitudine": 9.1874665
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI RHO",
-    "Indirizzo": "CORSO EUROPA, 250",
     "Città": "RHO",
     "Provincia": "MI",
+    "Indirizzo": "CORSO EUROPA, 250 - RHO (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -3173,10 +3200,11 @@
   },
   {
     "Nome": "FONDAZIONE IRCCS ISTITUTO NEUROLOGICO CARLO BESTA DI MILANO",
-    "Indirizzo": "VIA CELORIA, 11",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA CELORIA, 11 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "MEDICINA INTERNA - GENERALE"
@@ -3225,10 +3253,11 @@
   },
   {
     "Nome": "OSPEDALE LUINI CONFALONIERI DI LUINO",
-    "Indirizzo": "VIA FORLANINI, 6",
     "Città": "LUINO",
     "Provincia": "VA",
+    "Indirizzo": "VIA FORLANINI, 6 - LUINO (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -3274,10 +3303,11 @@
   },
   {
     "Nome": "HUMANITAS RESEARCH HOSPITAL DI ROZZANO",
-    "Indirizzo": "VIA ALESSANDRO MANZONI, 56",
     "Città": "ROZZANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA ALESSANDRO MANZONI, 56 - ROZZANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -3471,10 +3501,11 @@
   },
   {
     "Nome": "OSPEDALE M. O. A. LOCATELLI DI PIARIO",
-    "Indirizzo": "VIA GROPPINI, 22",
     "Città": "PIARIO",
     "Provincia": "BG",
+    "Indirizzo": "VIA GROPPINO, 22 - PIARIO (BG)",
     "Ente": "ASST BERGAMO EST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -3540,15 +3571,16 @@
       "Qualità dei pasti": 4.5,
       "Gestione delle visite dei parenti": 4.0
     },
-    "Latitudine": 45.8928396,
-    "Longitudine": 9.9252578
+    "Latitudine": 45.8875689,
+    "Longitudine": 9.917053
   },
   {
     "Nome": "OSPEDALE UBOLDO DI CERNUSCO SUL NAVIGLIO",
-    "Indirizzo": "VIA UBOLDO, 21",
     "Città": "CERNUSCO SUL NAVIGLIO",
     "Provincia": "MI",
+    "Indirizzo": "VIA UBOLDO, 21 - CERNUSCO SUL NAVIGLIO (MI)",
     "Ente": "ASST MELEGNANO E MARTESANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -3619,10 +3651,11 @@
   },
   {
     "Nome": "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA - ATS BRIANZA",
-    "Indirizzo": "VIA PERGOLESI, 33",
     "Città": "MONZA",
     "Provincia": "MB",
-    "Ente": null,
+    "Indirizzo": "VIA PERGOLESI, 33 - MONZA (MB)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -3821,10 +3854,11 @@
   },
   {
     "Nome": "FONDAZIONE ISTITUTO NEUROLOGICO MONDINO DI PAVIA",
-    "Indirizzo": "VIA MONDINO, 2",
     "Città": "PAVIA",
     "Provincia": "PV",
-    "Ente": null,
+    "Indirizzo": "VIA MONDINO, 2 - PAVIA (PV)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -3899,10 +3933,11 @@
   },
   {
     "Nome": "OSPEDALE MAGGIORE DI LODI",
-    "Indirizzo": "VIA DONATORI DEL SANGUE, 1",
     "Città": "LODI",
     "Provincia": "LO",
+    "Indirizzo": "VIA DONATORI DEL SANGUE, 1 - LODI (LO)",
     "Ente": "ASST LODI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -4041,15 +4076,16 @@
       "Qualità dei pasti": 3.5,
       "Gestione delle visite dei parenti": 4.1
     },
-    "Latitudine": 45.2786674,
-    "Longitudine": 9.4397938
+    "Latitudine": 45.2745968,
+    "Longitudine": 9.4424427
   },
   {
     "Nome": "CENTRO CARDIOLOGICO MONZINO DI MILANO",
-    "Indirizzo": "VIA CARLO PAREA, 4",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA CARLO PAREA, 4 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -4134,10 +4170,11 @@
   },
   {
     "Nome": "HUMANITAS GAVAZZENI DI BERGAMO",
-    "Indirizzo": "VIA MAURO GAVAZZENI, 21",
     "Città": "BERGAMO",
     "Provincia": "BG",
-    "Ente": null,
+    "Indirizzo": "VIA MAURO GAVAZZENI, 21 - BERGAMO (BG)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -4304,10 +4341,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO SAN LEOPOLDO MANDIC DI MERATE",
-    "Indirizzo": "LARGO MANDIC, 1",
     "Città": "MERATE",
     "Provincia": "LC",
+    "Indirizzo": "LARGO MANDIC, 1 - MERATE (LC)",
     "Ente": "ASST LECCO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -4423,10 +4461,11 @@
   },
   {
     "Nome": "FONDAZIONE IRCCS CA' GRANDA OSPEDALE MAGGIORE POLICLINICO DI MILANO",
-    "Indirizzo": "VIA FRANCESCO SFORZA, 35",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA FRANCESCO SFORZA, 35 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "NEFROLOGIA"
@@ -4659,10 +4698,11 @@
   },
   {
     "Nome": "ISTITUTO NAZIONALE DEI TUMORI",
-    "Indirizzo": "VIA VENEZIAN, 1",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA VENEZIAN, 1 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -4803,10 +4843,11 @@
   },
   {
     "Nome": "OSPEDALE SAN PAOLO DI MILANO",
-    "Indirizzo": "VIA A. DI RUDINÌ, 8",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA ANTONIO DI RUDINÌ, 8 - MILANO (MI)",
     "Ente": "ASST SANTI PAOLO E CARLO",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -4963,15 +5004,16 @@
       "Qualità dei pasti": 4.0,
       "Gestione delle visite dei parenti": 4.5
     },
-    "Latitudine": 45.4641943,
-    "Longitudine": 9.1896346
+    "Latitudine": 45.434388,
+    "Longitudine": 9.1598345
   },
   {
     "Nome": "OSPEDALE PESENTI FENAROLI DI ALZANO LOMBARDO",
-    "Indirizzo": "VIA MAZZINI, 88",
     "Città": "ALZANO LOMBARDO",
     "Provincia": "BG",
+    "Indirizzo": "VIA MAZZINI, 88 - ALZANO LOMBARDO (BG)",
     "Ente": "ASST BERGAMO EST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -5064,10 +5106,11 @@
   },
   {
     "Nome": "IRCCS OSPEDALE SAN RAFFAELE DI MILANO - GRUPPO SAN DONATO",
-    "Indirizzo": "VIA OLGETTINA, 60",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA OLGETTINA, 60 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA",
@@ -5297,10 +5340,11 @@
   },
   {
     "Nome": "OSPEDALE DI CIRCOLO DI BUSTO ARSIZIO",
-    "Indirizzo": "VIA ARNALDO DA BRESCIA, 1",
     "Città": "BUSTO ARSIZIO",
     "Provincia": "VA",
+    "Indirizzo": "VIA ARNALDO DA BRESCIA, 1 - BUSTO ARSIZIO (VA)",
     "Ente": "ASST VALLE OLONA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -5435,15 +5479,16 @@
       "Qualità dei pasti": 3.7,
       "Gestione delle visite dei parenti": 3.8
     },
-    "Latitudine": 45.6239352,
-    "Longitudine": 8.8459738
+    "Latitudine": 45.623062,
+    "Longitudine": 8.8474527
   },
   {
     "Nome": "OSPEDALE VALDUCE DI COMO",
-    "Indirizzo": "VIA DANTE ALIGHIERI, 11",
     "Città": "COMO",
     "Provincia": "CO",
-    "Ente": null,
+    "Indirizzo": "VIA DANTE ALIGHIERI, 11 - COMO (CO)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -5577,10 +5622,11 @@
   },
   {
     "Nome": "OSPEDALE MAGGIORE DI CREMA",
-    "Indirizzo": "LARGO UGO DOSSENA, 2",
     "Città": "CREMA",
     "Provincia": "CR",
+    "Indirizzo": "LARGO UGO DOSSENA, 2 - CREMA (CR)",
     "Ente": "ASST CREMA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA",
@@ -5705,10 +5751,11 @@
   },
   {
     "Nome": "IRCCS OSPEDALE SAN RAFFAELE TURRO DI MILANO - GRUPPO SAN DONATO",
-    "Indirizzo": "VIA STAMIRA D'ANCONA, 20",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA STAMIRA D'ANCONA, 20 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -5807,10 +5854,11 @@
   },
   {
     "Nome": "OSPEDALE CIVICO DI CODOGNO",
-    "Indirizzo": "VIALE MARCONI, 1",
     "Città": "CODOGNO",
     "Provincia": "LO",
+    "Indirizzo": "VIALE MARCONI, 1 - CODOGNO (LO)",
     "Ente": "ASST LODI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -5873,10 +5921,11 @@
   },
   {
     "Nome": "IRCCS MAUGERI TRADATE",
-    "Indirizzo": "VIA RONCACCIO, 16",
     "Città": "TRADATE",
     "Provincia": "VA",
-    "Ente": null,
+    "Indirizzo": "VIA RONCACCIO, 16 - TRADATE (VA)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -6005,10 +6054,11 @@
   },
   {
     "Nome": "OSPEDALE CARLO BORRELLA DI GIUSSANO",
-    "Indirizzo": "VIA MILANO, 65",
     "Città": "GIUSSANO",
     "Provincia": "MB",
+    "Indirizzo": "VIA MILANO, 65 - GIUSSANO (MB)",
     "Ente": "ASST BRIANZA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA",
@@ -6048,10 +6098,11 @@
   },
   {
     "Nome": "IEO - ISTITUTO EUROPEO DI ONCOLOGIA DI MILANO",
-    "Indirizzo": "VIA RIPAMONTI, 435",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA RIPAMONTI, 435 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -6201,10 +6252,11 @@
   },
   {
     "Nome": "IRCCS OSPEDALE GALEAZZI - SANT'AMBROGIO DI MILANO - GRUPPO SAN DONATO",
-    "Indirizzo": "VIA CRISTINA BELGIOIOSO, 173",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA CRISTINA BELGIOIOSO, 173 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -6341,10 +6393,11 @@
   },
   {
     "Nome": "OSPEDALE G. FORNAROLI DI MAGENTA",
-    "Indirizzo": "VIA AL DONATORE DI SANGUE, 50",
     "Città": "MAGENTA",
     "Provincia": "MI",
+    "Indirizzo": "VIA AL DONATORE DI SANGUE, 50 - MAGENTA (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -6462,10 +6515,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO SPEDALI CIVILI DI BRESCIA",
-    "Indirizzo": "PIAZZALE SPEDALI CIVILI, 1",
     "Città": "BRESCIA",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZALE SPEDALI CIVILI, 1 - BRESCIA (BS)",
     "Ente": "ASST SPEDALI CIVILI",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -6656,15 +6710,16 @@
       "Qualità dei pasti": 3.8,
       "Gestione delle visite dei parenti": 3.9
     },
-    "Latitudine": 45.5569622,
-    "Longitudine": 10.2315
+    "Latitudine": 45.5559495,
+    "Longitudine": 10.2318187
   },
   {
     "Nome": "OSPEDALE BASSINI DI CINISELLO BALSAMO",
-    "Indirizzo": "VIA GORKI, 50",
     "Città": "CINISELLO BALSAMO",
     "Provincia": "MI",
+    "Indirizzo": "VIA GORKI, 50 - CINISELLO BALSAMO (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -6782,15 +6837,16 @@
       "Qualità dei pasti": 3.2,
       "Gestione delle visite dei parenti": 4.3
     },
-    "Latitudine": 45.5465428,
-    "Longitudine": 9.2143294
+    "Latitudine": 45.5464583,
+    "Longitudine": 9.2154996
   },
   {
     "Nome": "NUOVO OSPEDALE DI BRONI E STRADELLA",
-    "Indirizzo": "VIA ACHILLI, 3",
     "Città": "STRADELLA",
     "Provincia": "PV",
+    "Indirizzo": "VIA ACHILLI, 3 - STRADELLA (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -6853,15 +6909,16 @@
       "Qualità dei pasti": 3.0,
       "Gestione delle visite dei parenti": 3.5
     },
-    "Latitudine": 45.0764202,
-    "Longitudine": 9.2878218
+    "Latitudine": 45.077764,
+    "Longitudine": 9.2873989
   },
   {
     "Nome": "IRCCS SANTA MARIA NASCENTE DI MILANO - FONDAZIONE DON CARLO GNOCCHI",
-    "Indirizzo": "VIA ALFONSO CAPECELATRO, 66",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA ALFONSO CAPECELATRO, 66 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -6959,10 +7016,11 @@
   },
   {
     "Nome": "OSPEDALE DEI BAMBINI VITTORE BUZZI DI MILANO",
-    "Indirizzo": "VIA CASTELVETRO, 32",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA CASTELVETRO, 32 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -7041,10 +7099,11 @@
   },
   {
     "Nome": "OSPEDALE SANTISSIMA TRINITÀ DI ROMANO DI LOMBARDIA",
-    "Indirizzo": "VIA S. FRANCESCO D'ASSISI, 12",
     "Città": "ROMANO DI LOMBARDIA",
     "Provincia": "BG",
+    "Indirizzo": "VIA S. FRANCESCO D'ASSISI, 12 - ROMANO DI LOMBARDIA (BG)",
     "Ente": "ASST BERGAMO OVEST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -7107,10 +7166,11 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DI SAN GIOVANNI BIANCO",
-    "Indirizzo": "VIA CASTELLI, 5",
     "Città": "SAN GIOVANNI BIANCO",
     "Provincia": "BG",
+    "Indirizzo": "VIA CASTELLI, 5 - SAN GIOVANNI BIANCO (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -7161,10 +7221,11 @@
   },
   {
     "Nome": "ICS MAUGERI PAVIA",
-    "Indirizzo": "VIA BOEZIO, 28",
     "Città": "PAVIA",
     "Provincia": "PV",
-    "Ente": null,
+    "Indirizzo": "VIA BOEZIO, 28 - PAVIA (PV)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -7287,10 +7348,11 @@
   },
   {
     "Nome": "PRESIDIO SOCIO SANITARIO TERRITORIALE DI GORGONZOLA",
-    "Indirizzo": "VIA BELLINI, 5",
     "Città": "GORGONZOLA",
     "Provincia": "MI",
+    "Indirizzo": "VIA BELLINI, 5 - GORGONZOLA (MI)",
     "Ente": "ASST MELEGNANO E MARTESANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -7330,15 +7392,16 @@
       "Qualità dei pasti": 4.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.53464,
-    "Longitudine": 9.4134439
+    "Latitudine": 45.5335678,
+    "Longitudine": 9.4141114
   },
   {
     "Nome": "IRCCS POLICLINICO SAN DONATO DI SAN DONATO MILANESE - GRUPPO SAN DONATO",
-    "Indirizzo": "PIAZZA EDMONDO MALAN",
     "Città": "SAN DONATO MILANESE",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "PIAZZA EDMONDO MALAN - SAN DONATO MILANESE (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -7496,10 +7559,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO GAETANO PINI",
-    "Indirizzo": "VIA GAETANO PINI, 9",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA GAETANO PINI, 9 - MILANO (MI)",
     "Ente": "ASST GAETANO PINI-CTO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -7594,10 +7658,11 @@
   },
   {
     "Nome": "OSPEDALE CITTÀ DI SESTO SAN GIOVANNI",
-    "Indirizzo": "VIALE MATTEOTTI, 83",
     "Città": "SESTO SAN GIOVANNI",
     "Provincia": "MI",
+    "Indirizzo": "VIALE MATTEOTTI, 83 - SESTO SAN GIOVANNI (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -7738,10 +7803,11 @@
   },
   {
     "Nome": "OSPEDALE DI DESENZANO DEL GARDA",
-    "Indirizzo": "LOCALITÀ MONTECROCE",
     "Città": "DESENZANO DEL GARDA",
     "Provincia": "BS",
+    "Indirizzo": "LOCALITÀ MONTECROCE - DESENZANO DEL GARDA (BS)",
     "Ente": "ASST GARDA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -7850,15 +7916,16 @@
       "Qualità dei pasti": 3.7,
       "Gestione delle visite dei parenti": 3.3
     },
-    "Latitudine": 45.4694851,
-    "Longitudine": 10.5389467
+    "Latitudine": 45.4702891,
+    "Longitudine": 10.5205607
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO ERBA-RENALDI DI MENAGGIO",
-    "Indirizzo": "VIA CASARTELLI, 7",
     "Città": "MENAGGIO",
     "Provincia": "CO",
+    "Indirizzo": "VIA CASARTELLI, 7 - MENAGGIO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -7943,10 +8010,11 @@
   },
   {
     "Nome": "OSPEDALE SAN GIUSEPPE MULTIMEDICA",
-    "Indirizzo": "VIA SAN VITTORE, 12",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA SAN VITTORE, 12 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -8109,15 +8177,16 @@
       "Qualità dei pasti": 3.5,
       "Gestione delle visite dei parenti": 3.4
     },
-    "Latitudine": 45.46302,
-    "Longitudine": 9.1717095
+    "Latitudine": 45.4631277,
+    "Longitudine": 9.1714179
   },
   {
     "Nome": "OSPEDALE DI SONDRIO",
-    "Indirizzo": "VIA STELVIO, 25",
     "Città": "SONDRIO",
     "Provincia": "SO",
+    "Indirizzo": "VIA STELVIO, 25 - SONDRIO (SO)",
     "Ente": "ASST VALTELLINA E ALTO LARIO",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -8258,10 +8327,11 @@
   },
   {
     "Nome": "INRCA PRESIDIO OSPEDALIERO DI RICERCA DI CASATENOVO",
-    "Indirizzo": "VIA MONTEREGIO, 13",
     "Città": "CASATENOVO",
     "Provincia": "LC",
-    "Ente": null,
+    "Indirizzo": "VIA MONTEREGIO, 13 - CASATENOVO (LC)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "PNEUMOLOGIA"
@@ -8294,10 +8364,11 @@
   },
   {
     "Nome": "OSPEDALE DI ESINE",
-    "Indirizzo": "VIA MANZONI, 142",
     "Città": "ESINE",
     "Provincia": "BS",
+    "Indirizzo": "VIA MANZONI, 142 - ESINE (BS)",
     "Ente": "ASST VALCAMONICA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -8400,10 +8471,11 @@
   },
   {
     "Nome": "OSPEDALE LUIGI SACCO DI MILANO",
-    "Indirizzo": "VIA G. B. GRASSI, 74",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA G. B. GRASSI, 74 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -8557,15 +8629,16 @@
       "Qualità dei pasti": 2.9,
       "Gestione delle visite dei parenti": 3.1
     },
-    "Latitudine": 45.4641943,
-    "Longitudine": 9.1896346
+    "Latitudine": 45.5201635,
+    "Longitudine": 9.1235461
   },
   {
     "Nome": "OSPEDALE MORIGGIA PELASCINI DI GRAVEDONA - GRUPPO ITALCLINICHE",
-    "Indirizzo": "VIA PELASCINI, 3",
     "Città": "GRAVEDONA ED UNITI",
     "Provincia": "CO",
-    "Ente": null,
+    "Indirizzo": "VIA PELASCINI, 3 - GRAVEDONA ED UNITI (CO)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA",
@@ -8680,10 +8753,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI CASALPUSTERLENGO",
-    "Indirizzo": "VIA FLEMING, 1",
     "Città": "CASALPUSTERLENGO",
     "Provincia": "LO",
+    "Indirizzo": "VIA FLEMING, 1 - CASALPUSTERLENGO (LO)",
     "Ente": "ASST LODI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -8764,10 +8838,11 @@
   },
   {
     "Nome": "OSPEDALE SAN CARLO BORROMEO DI MILANO",
-    "Indirizzo": "VIA PIO II, 3",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA PIO II, 3 - MILANO (MI)",
     "Ente": "ASST SANTI PAOLO E CARLO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -8910,10 +8985,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI GARBAGNATE MILANESE",
-    "Indirizzo": "VIALE FORLANINI, 95",
     "Città": "GARBAGNATE MILANESE",
     "Provincia": "MI",
+    "Indirizzo": "VIALE FORLANINI, 95 - GARBAGNATE MILANESE (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -9041,10 +9117,11 @@
   },
   {
     "Nome": "OSPEDALE DI GALLARATE",
-    "Indirizzo": "VIA EUSEBIO PASTORI, 4",
     "Città": "GALLARATE",
     "Provincia": "VA",
+    "Indirizzo": "VIA EUSEBIO PASTORI, 4 - GALLARATE (VA)",
     "Ente": "ASST VALLE OLONA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -9164,10 +9241,11 @@
   },
   {
     "Nome": "OSPEDALE DI MANERBIO",
-    "Indirizzo": "VIA LUNGOMELLA VALSECCHI 2",
     "Città": "MANERBIO",
     "Provincia": "BS",
+    "Indirizzo": "VIA LUNGOMELLA VALSECCHI, 2 - MANERBIO (BS)",
     "Ente": "ASST GARDA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA",
@@ -9289,15 +9367,16 @@
       "Qualità dei pasti": 2.5,
       "Gestione delle visite dei parenti": 4.0
     },
-    "Latitudine": 45.3522237,
-    "Longitudine": 10.1404663
+    "Latitudine": 45.3570323,
+    "Longitudine": 10.1465113
   },
   {
     "Nome": "OSPEDALE ASILO VITTORIA DI MORTARA",
-    "Indirizzo": "STRADA PAVESE, 1013",
     "Città": "MORTARA",
     "Provincia": "PV",
+    "Indirizzo": "STRADA PAVESE, 1013 - MORTARA (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -9344,15 +9423,16 @@
       "Qualità dei pasti": 3.0,
       "Gestione delle visite dei parenti": 4.0
     },
-    "Latitudine": 45.2523737,
-    "Longitudine": 8.7467931
+    "Latitudine": 45.2536092,
+    "Longitudine": 8.7430551
   },
   {
     "Nome": "OSPEDALE DI ASOLA",
-    "Indirizzo": "PIAZZA OTTANTESIMO FANTERIA, 1",
     "Città": "ASOLA",
     "Provincia": "MN",
+    "Indirizzo": "PIAZZA OTTANTESIMO FANTERIA, 1 - ASOLA (MN)",
     "Ente": "ASST MANTOVA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -9435,10 +9515,11 @@
   },
   {
     "Nome": "AZIENDA OSPEDALIERA MELLINO MELLINI DI CHIARI",
-    "Indirizzo": "VIALE MAZZINI, 4",
     "Città": "CHIARI",
     "Provincia": "BS",
+    "Indirizzo": "VIALE MAZZINI, 4 - CHIARI (BS)",
     "Ente": "ASST FRANCIACORTA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -9558,10 +9639,11 @@
   },
   {
     "Nome": "OSPEDALE DI ERBA - LIFENET HEALTHCARE",
-    "Indirizzo": "VIA FATEBENEFRATELLI, 20",
     "Città": "ERBA",
     "Provincia": "CO",
-    "Ente": null,
+    "Indirizzo": "VIA FATEBENEFRATELLI, 20 - ERBA (CO)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -9671,10 +9753,11 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DI VOGHERA",
-    "Indirizzo": "VIA VOLTURNO, 14",
     "Città": "VOGHERA",
     "Provincia": "PV",
+    "Indirizzo": "VIA VOLTURNO, 14 - VOGHERA (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -9792,10 +9875,11 @@
   },
   {
     "Nome": "OSPEDALE DI VIMERCATE",
-    "Indirizzo": "VIA SANTI COSMA E DAMIANO, 10",
     "Città": "VIMERCATE",
     "Provincia": "MB",
+    "Indirizzo": "VIA SANTI COSMA E DAMIANO, 10 - VIMERCATE (MB)",
     "Ente": "ASST BRIANZA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -9926,15 +10010,16 @@
       "Qualità dei pasti": 3.0,
       "Gestione delle visite dei parenti": 3.7
     },
-    "Latitudine": 45.6082815,
-    "Longitudine": 9.3563438
+    "Latitudine": 45.6073471,
+    "Longitudine": 9.3547962
   },
   {
     "Nome": "OSPEDALE DI TRADATE",
-    "Indirizzo": "PIAZZA ANGELO ZANABONI, 1",
     "Città": "TRADATE",
     "Provincia": "VA",
+    "Indirizzo": "PIAZZA ANGELO ZANABONI, 1 - TRADATE (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -10020,15 +10105,16 @@
       "Qualità dei pasti": 3.3,
       "Gestione delle visite dei parenti": 3.0
     },
-    "Latitudine": 45.7142931,
-    "Longitudine": 8.9041464
+    "Latitudine": 45.7209096,
+    "Longitudine": 8.9006895
   },
   {
     "Nome": "AUXOLOGICO ARIOSTO DI MILANO",
-    "Indirizzo": "VIA LUDOVICO ARIOSTO, 13",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA LUDOVICO ARIOSTO, 13 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -10184,10 +10270,11 @@
   },
   {
     "Nome": "OSPEDALE CARLO POMA DI MANTOVA",
-    "Indirizzo": "STRADA LAGO PAIOLO, 10",
     "Città": "MANTOVA",
     "Provincia": "MN",
+    "Indirizzo": "STRADA LAGO PAIOLO, 10 - MANTOVA (MN)",
     "Ente": "ASST MANTOVA",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -10369,10 +10456,11 @@
   },
   {
     "Nome": "IRCCS MAUGERI MILANO",
-    "Indirizzo": "VIA CAMALDOLI, 64",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA CAMALDOLI, 64 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -10498,10 +10586,11 @@
   },
   {
     "Nome": "OSPEDALE C. CANTÙ",
-    "Indirizzo": "PIAZZA MUSSI, 1",
     "Città": "ABBIATEGRASSO",
     "Provincia": "MI",
+    "Indirizzo": "PIAZZA MUSSI, 1 - ABBIATEGRASSO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ENDOCRINOLOGIA E DIABETOLOGIA"
@@ -10555,10 +10644,11 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DI LEGNANO",
-    "Indirizzo": "VIA PAPA GIOVANNI PAOLO II",
     "Città": "LEGNANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA PAPA GIOVANNI PAOLO II - LEGNANO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -10679,15 +10769,16 @@
       "Qualità dei pasti": 2.5,
       "Gestione delle visite dei parenti": 2.5
     },
-    "Latitudine": 45.5859224,
-    "Longitudine": 8.8863455
+    "Latitudine": 45.5844164,
+    "Longitudine": 8.8873
   },
   {
     "Nome": "OSPEDALE FATEBENEFRATELLI E OFTALMICO DI MILANO",
-    "Indirizzo": "CORSO DI PORTA NUOVA, 23",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "CORSO DI PORTA NUOVA, 23 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "HUB",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -10825,10 +10916,11 @@
   },
   {
     "Nome": "OSPEDALE SANT'ANTONIO ABATE DI CANTÙ",
-    "Indirizzo": "VIA DOMEA, 4",
     "Città": "CANTÙ",
     "Provincia": "CO",
+    "Indirizzo": "VIA DOMEA, 4 - CANTÙ (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -10934,10 +11026,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI SANT'ANGELO LODIGIANO",
-    "Indirizzo": "STRADA PROVINCIALE, 19",
     "Città": "SANT'ANGELO LODIGIANO",
     "Provincia": "LO",
+    "Indirizzo": "STRADA PROVINCIALE, 19 - SANT'ANGELO LODIGIANO (LO)",
     "Ente": "ASST LODI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -11019,10 +11112,11 @@
   },
   {
     "Nome": "OSPEDALE SANT'ANNA DI SAN FERMO DELLA BATTAGLIA",
-    "Indirizzo": "VIA RAVONA, 20",
     "Città": "SAN FERMO DELLA BATTAGLIA",
     "Provincia": "CO",
+    "Indirizzo": "VIA RAVONA, 20 - SAN FERMO DELLA BATTAGLIA (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -11181,15 +11275,16 @@
       "Qualità dei pasti": 2.2,
       "Gestione delle visite dei parenti": 2.2
     },
-    "Latitudine": 45.802113,
-    "Longitudine": 9.0396312
+    "Latitudine": 45.7930437,
+    "Longitudine": 9.0468015
   },
   {
     "Nome": "OSPEDALE G. CASATI DI PASSIRANA",
-    "Indirizzo": "VIA SETTEMBRINI, 1",
     "Città": "RHO",
     "Provincia": "MI",
+    "Indirizzo": "VIA SETTEMBRINI, 1 - RHO (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -11242,10 +11337,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO CTO",
-    "Indirizzo": "VIA BIGNAMI, 1",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA BIGNAMI, 1 - MILANO (MI)",
     "Ente": "ASST GAETANO PINI-CTO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -11325,10 +11421,11 @@
   },
   {
     "Nome": "IRCCS MULTIMEDICA",
-    "Indirizzo": "VIA MILANESE, 300",
     "Città": "SESTO SAN GIOVANNI",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA MILANESE, 300 - SESTO SAN GIOVANNI (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -11500,15 +11597,16 @@
       "Qualità dei pasti": 1.7,
       "Gestione delle visite dei parenti": 1.9
     },
-    "Latitudine": 45.5366578,
-    "Longitudine": 9.2184097
+    "Latitudine": 45.536567,
+    "Longitudine": 9.219285
   },
   {
     "Nome": "OSPEDALE CIVILE DI VIGEVANO",
-    "Indirizzo": "CORSO MILANO, 19",
     "Città": "VIGEVANO",
     "Provincia": "PV",
+    "Indirizzo": "CORSO MILANO, 19 - VIGEVANO (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -11620,10 +11718,11 @@
   },
   {
     "Nome": "OSPEDALE DI SARONNO",
-    "Indirizzo": "PIAZZALE BORELLA, 1",
     "Città": "SARONNO",
     "Provincia": "VA",
+    "Indirizzo": "PIAZZALE BORELLA, 1 - SARONNO (VA)",
     "Ente": "ASST VALLE OLONA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -11742,15 +11841,16 @@
       "Qualità dei pasti": 1.0,
       "Gestione delle visite dei parenti": 2.0
     },
-    "Latitudine": 45.6272691,
-    "Longitudine": 9.0345548
+    "Latitudine": 45.6301331,
+    "Longitudine": 9.0398188
   },
   {
     "Nome": "OSPEDALE CADUTI BOLLATESI",
-    "Indirizzo": "VIA PIAVE, 20",
     "Città": "BOLLATE",
     "Provincia": "MI",
+    "Indirizzo": "VIA PIAVE, 20 - BOLLATE (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -11814,10 +11914,11 @@
   },
   {
     "Nome": "OSPEDALE SANTA MARIA DELLE STELLE DI MELZO",
-    "Indirizzo": "VIA VOLONTARI DEL SANGUE, 5",
     "Città": "MELZO",
     "Provincia": "MI",
+    "Indirizzo": "VIA VOLONTARI DEL SANGUE, 5 - MELZO (MI)",
     "Ente": "ASST MELEGNANO E MARTESANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -11895,10 +11996,11 @@
   },
   {
     "Nome": "AUXOLOGICO CAPITANIO DI MILANO",
-    "Indirizzo": "VIA MERCALLI, 28",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA MERCALLI, 28 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -12036,7 +12138,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 45,
     "Rating_dimensioni": {},
@@ -12045,10 +12147,11 @@
   },
   {
     "Nome": "AUXOLOGICO MOSÈ BIANCHI DI MILANO",
-    "Indirizzo": "VIA MOSÈ BIANCHI, 90",
     "Città": "MILANO",
     "Provincia": "MI",
-    "Ente": null,
+    "Indirizzo": "VIA MOSÈ BIANCHI, 90 - MILANO (MI)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -12153,7 +12256,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 34,
     "Rating_dimensioni": {},
@@ -12162,10 +12265,11 @@
   },
   {
     "Nome": "EUGENIO MEDEA - POLO SCIENTIFICO DI BOSISIO PARINI",
-    "Indirizzo": "VIA DON LUIGI MONZA, 20",
     "Città": "BOSISIO PARINI",
     "Provincia": "LC",
-    "Ente": null,
+    "Indirizzo": "VIA DON LUIGI MONZA, 20 - BOSISIO PARINI (LC)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "NEUROLOGIA"
@@ -12180,7 +12284,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 4,
     "Rating_dimensioni": {},
@@ -12189,10 +12293,11 @@
   },
   {
     "Nome": "G.B. MANGIONI HOSPITAL DI LECCO - GVM CARE & RESEARCH",
-    "Indirizzo": "VIA LEONARDO DA VINCI, 49",
     "Città": "LECCO",
     "Provincia": "LC",
-    "Ente": null,
+    "Indirizzo": "VIA LEONARDO DA VINCI, 49 - LECCO (LC)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -12288,7 +12393,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 31,
     "Rating_dimensioni": {},
@@ -12297,10 +12402,11 @@
   },
   {
     "Nome": "ICS MAUGERI LISSONE",
-    "Indirizzo": "VIA MONS. BERNASCONI, 16",
     "Città": "LISSONE",
     "Provincia": "MB",
-    "Ente": null,
+    "Indirizzo": "VIA MONSIGNORE BERNASCONI, 16 - LISSONE (MB)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -12399,19 +12505,20 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 32,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6107705,
-    "Longitudine": 9.2408409
+    "Latitudine": 45.6201773,
+    "Longitudine": 9.2383956
   },
   {
     "Nome": "IRCCS ISTITUTO CENTRO SAN GIOVANNI DI DIO FATEBENEFRATELLI DI BRESCIA",
-    "Indirizzo": "VIA PILASTRONI, 4",
     "Città": "BRESCIA",
     "Provincia": "BS",
-    "Ente": null,
+    "Indirizzo": "VIA PILASTRONI, 4 - BRESCIA (BS)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "GERIATRIA"
@@ -12423,19 +12530,20 @@
         "Nome": "PSICHIATRIA E PSICOLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 3,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5223896,
-    "Longitudine": 10.2020833
+    "Latitudine": 45.5238812,
+    "Longitudine": 10.2025689
   },
   {
     "Nome": "IRCCS MAUGERI CASTEL GOFFREDO",
-    "Indirizzo": "VIA OSPEDALE, 36",
     "Città": "CASTEL GOFFREDO",
     "Provincia": "MN",
-    "Ente": null,
+    "Indirizzo": "VIA OSPEDALE, 36 -  CASTEL GOFFREDO (MN)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -12540,19 +12648,20 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 34,
     "Rating_dimensioni": {},
-    "Latitudine": 45.3007282,
-    "Longitudine": 10.4793733
+    "Latitudine": 45.3013083,
+    "Longitudine": 10.4785441
   },
   {
     "Nome": "IRCCS MAUGERI MONTESCANO",
-    "Indirizzo": "VIA PER MONTESCANO, 35",
     "Città": "MONTESCANO",
     "Provincia": "PV",
-    "Ente": null,
+    "Indirizzo": "VIA PER MONTESCANO, 35 - MONTESCANO (PV)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ALLERGOLOGIA"
@@ -12651,19 +12760,20 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 32,
     "Rating_dimensioni": {},
-    "Latitudine": 45.0326442,
-    "Longitudine": 9.2961671
+    "Latitudine": 45.0325518,
+    "Longitudine": 9.2818479
   },
   {
     "Nome": "OSPEDALE BRIOLINI DI GAZZANIGA",
-    "Indirizzo": "VIA MANZONI, 130",
     "Città": "GAZZANIGA",
     "Provincia": "BG",
+    "Indirizzo": "VIA MANZONI, 130 - GAZZANIGA (BG)",
     "Ente": "ASST BERGAMO EST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -12711,7 +12821,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 15,
     "Rating_dimensioni": {},
@@ -12720,10 +12830,11 @@
   },
   {
     "Nome": "OSPEDALE CAUSA PIA LUVINI DI CITTIGLIO",
-    "Indirizzo": "VIA LUVINI, 1",
     "Città": "CITTIGLIO",
     "Provincia": "VA",
+    "Indirizzo": "VIA LUVINI, 1 - CITTIGLIO (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -12780,7 +12891,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 18,
     "Rating_dimensioni": {},
@@ -12789,10 +12900,11 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DI ISEO",
-    "Indirizzo": "VIA GIARDINI GARIBALDI, 7",
     "Città": "ISEO",
     "Provincia": "BS",
+    "Indirizzo": "VIA GIARDINI GARIBALDI, 7 - ISEO (BS)",
     "Ente": "ASST FRANCIACORTA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -12861,7 +12973,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 22,
     "Rating_dimensioni": {},
@@ -12870,10 +12982,11 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DI SALÒ",
-    "Indirizzo": "PIAZZA BRESCIANI, 5",
     "Città": "SALÒ",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA BRESCIANI, 5 - SALÒ (BS)",
     "Ente": "ASST GARDA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -12900,7 +13013,7 @@
         "Nome": "RADIOLOGIA E DIAGNOSTICA PER IMMAGINI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 8,
     "Rating_dimensioni": {},
@@ -12909,10 +13022,11 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DI VOLTA MANTOVANA",
-    "Indirizzo": "VIA TONELLO, 5",
     "Città": "VOLTA MANTOVANA",
     "Provincia": "MN",
-    "Ente": null,
+    "Indirizzo": "VIA TONELLO, 5 - VOLTA MANTOVANA (MN)",
+    "Ente": "",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -12960,7 +13074,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 15,
     "Rating_dimensioni": {},
@@ -12969,10 +13083,11 @@
   },
   {
     "Nome": "OSPEDALE CROTTA OLTROCCHI DI VAPRIO D'ADDA",
-    "Indirizzo": "VIA DON MOLETTA, 22",
     "Città": "VAPRIO D'ADDA",
     "Provincia": "MI",
+    "Indirizzo": "VIA DON MOLETTA, 22 - VAPRIO D'ADDA (MI)",
     "Ente": "ASST MELEGNANO E MARTESANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -12990,7 +13105,7 @@
         "Nome": "TERAPIA INTENSIVA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 5,
     "Rating_dimensioni": {},
@@ -12999,10 +13114,11 @@
   },
   {
     "Nome": "OSPEDALE DI CARATE BRIANZA",
-    "Indirizzo": "VIA MOSÈ BIANCHI, 9",
     "Città": "CARATE BRIANZA",
     "Provincia": "MB",
+    "Indirizzo": "VIA MOSÈ BIANCHI, 9 - CARATE BRIANZA (MB)",
     "Ente": "ASST BRIANZA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13065,19 +13181,20 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 20,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6765494,
-    "Longitudine": 9.2371619
+    "Latitudine": 45.6708272,
+    "Longitudine": 9.246401
   },
   {
     "Nome": "OSPEDALE DI CHIAVENNA",
-    "Indirizzo": "VIA CERERIA, 4",
     "Città": "CHIAVENNA",
     "Provincia": "SO",
+    "Indirizzo": "VIA CERERIA, 4 - CHIAVENNA (SO)",
     "Ente": "ASST VALTELLINA E ALTO LARIO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CHIRURGIA GENERALE"
@@ -13125,7 +13242,7 @@
         "Nome": "TERAPIA INTENSIVA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 15,
     "Rating_dimensioni": {},
@@ -13134,10 +13251,11 @@
   },
   {
     "Nome": "OSPEDALE DI CUASSO AL MONTE",
-    "Indirizzo": "VIA IMBORGNANA, 7",
     "Città": "CUASSO AL MONTE",
     "Provincia": "VA",
+    "Indirizzo": "VIA IMBORGNANA, 7 - CUASSO AL MONTE (VA)",
     "Ente": "ASST SETTE LAGHI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "PNEUMOLOGIA"
@@ -13155,19 +13273,20 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 5,
     "Rating_dimensioni": {},
-    "Latitudine": 45.906257,
-    "Longitudine": 8.8607275
+    "Latitudine": 45.9072714,
+    "Longitudine": 8.8570045
   },
   {
     "Nome": "OSPEDALE DI LENO",
-    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1",
     "Città": "LENO",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1 - LENO (BS)",
     "Ente": "ASST GARDA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13203,25 +13322,26 @@
         "Nome": "RIABILITAZIONE ORTOPEDICA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 11,
     "Rating_dimensioni": {},
-    "Latitudine": 45.3670119,
-    "Longitudine": 10.2184518
+    "Latitudine": 45.3644372,
+    "Longitudine": 10.2163471
   },
   {
     "Nome": "OSPEDALE DI VIADANA",
-    "Indirizzo": "LARGO DE GASPERI, 5/7",
     "Città": "VIADANA",
     "Provincia": "MN",
+    "Indirizzo": "LARGO DE GASPERI, 5/7 - VIADANA (MN)",
     "Ente": "ASST MANTOVA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "RIABILITAZIONE ORTOPEDICA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 1,
     "Rating_dimensioni": {},
@@ -13230,10 +13350,11 @@
   },
   {
     "Nome": "OSPEDALE DI VIZZOLO PREDABISSI",
-    "Indirizzo": "VIA PANDINA, 1",
     "Città": "VIZZOLO PREDABISSI",
     "Provincia": "MI",
+    "Indirizzo": "VIA PANDINA, 1 - VIZZOLO PREDABISSI (MI)",
     "Ente": "ASST MELEGNANO E MARTESANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANATOMIA PATOLOGICA"
@@ -13323,7 +13444,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 29,
     "Rating_dimensioni": {},
@@ -13332,10 +13453,11 @@
   },
   {
     "Nome": "OSPEDALE PASSI DI CALCINATE",
-    "Indirizzo": "PIAZZALE OSPEDALE, 3",
     "Città": "CALCINATE",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZALE OSPEDALE, 3 - CALCINATE (BG)",
     "Ente": "ASST BERGAMO EST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -13350,19 +13472,20 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 4,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6214681,
-    "Longitudine": 9.7968894
+    "Latitudine": 45.6205428,
+    "Longitudine": 9.7974627
   },
   {
     "Nome": "OSPEDALE SAN MARTINO DI MEDE",
-    "Indirizzo": "VIALE DEI MILLE, 23",
     "Città": "MEDE",
     "Provincia": "PV",
+    "Indirizzo": "VIALE DEI MILLE, 23 - MEDE (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13416,7 +13539,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 17,
     "Rating_dimensioni": {},
@@ -13425,10 +13548,11 @@
   },
   {
     "Nome": "OSPEDALE SANTA MARTA DI RIVOLTA D'ADDA",
-    "Indirizzo": "VIALE MONTE GRAPPA, 15",
     "Città": "RIVOLTA D'ADDA",
     "Provincia": "CR",
+    "Indirizzo": "VIALE MONTE GRAPPA, 15 - RIVOLTA D'ADDA (CR)",
     "Ente": "ASST CREMA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "GASTROENTEROLOGIA"
@@ -13449,7 +13573,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 6,
     "Rating_dimensioni": {},
@@ -13458,10 +13582,11 @@
   },
   {
     "Nome": "OSPEDALE SANTI BENEDETTO E GELTRUDE DI CUGGIONO",
-    "Indirizzo": "VIA BADI, 4",
     "Città": "CUGGIONO",
     "Provincia": "MI",
+    "Indirizzo": "VIA BADI, 4 - CUGGIONO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13503,7 +13628,7 @@
         "Nome": "SERVIZI TERRITORIALI"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 13,
     "Rating_dimensioni": {},
@@ -13512,10 +13637,11 @@
   },
   {
     "Nome": "OSPEDALE SANTI CAPITANIO E GEROSA DI LOVERE",
-    "Indirizzo": "VIA MARTINOLI, 9/A",
     "Città": "LOVERE",
     "Provincia": "BG",
+    "Indirizzo": "VIA MARTINOLI, 9/A - LOVERE (BG)",
     "Ente": "ASST BERGAMO EST",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -13569,7 +13695,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 17,
     "Rating_dimensioni": {},
@@ -13578,10 +13704,11 @@
   },
   {
     "Nome": "OSPEDALE SS. ANNUNZIATA DI VARZI",
-    "Indirizzo": "VIA REPETTI, 2",
     "Città": "VARZI",
     "Provincia": "PV",
+    "Indirizzo": "VIA REPETTI, 2 - VARZI (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13629,7 +13756,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 15,
     "Rating_dimensioni": {},
@@ -13638,10 +13765,11 @@
   },
   {
     "Nome": "OSPEDALE VILLA DEI COLLI DI LONATO DEL GARDA",
-    "Indirizzo": "VIA ARRIGA ALTA, 11",
     "Città": "LONATO DEL GARDA",
     "Provincia": "BS",
+    "Indirizzo": "VIA ARRIGA ALTA, 11 - LONATO DEL GARDA (BS)",
     "Ente": "ASST GARDA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "NEUROLOGIA"
@@ -13656,19 +13784,20 @@
         "Nome": "RIABILITAZIONE ORTOPEDICA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 4,
     "Rating_dimensioni": {},
-    "Latitudine": 45.443959,
-    "Longitudine": 10.4804104
+    "Latitudine": 45.4571342,
+    "Longitudine": 10.4958144
   },
   {
     "Nome": "OSPEDALE ZAPPATONI DI CASSANO D'ADDA",
-    "Indirizzo": "VIA QUINTINO DI VONA, 41",
     "Città": "CASSANO D'ADDA",
     "Provincia": "MI",
+    "Indirizzo": "VIA QUINTINO DI VONA, 41 - CASSANO D'ADDA (MI)",
     "Ente": "ASST MELEGNANO E MARTESANA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13689,19 +13818,20 @@
         "Nome": "RIABILITAZIONE ORTOPEDICA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 6,
     "Rating_dimensioni": {},
-    "Latitudine": 45.522716,
-    "Longitudine": 9.5161871
+    "Latitudine": 45.5158233,
+    "Longitudine": 9.5095252
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI MONTICHIARI",
-    "Indirizzo": "VIA CIOTTI, 154",
     "Città": "MONTICHIARI",
     "Provincia": "BS",
+    "Indirizzo": "VIA CIOTTI, 154 - MONTICHIARI (BS)",
     "Ente": "ASST SPEDALI CIVILI",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13767,7 +13897,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 21,
     "Rating_dimensioni": {},
@@ -13776,10 +13906,11 @@
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO TERRITORIALE (POT) DI MORBEGNO",
-    "Indirizzo": "VIA MORELLI, 1",
     "Città": "MORBEGNO",
     "Provincia": "SO",
+    "Indirizzo": "VIA MORELLI, 1 - MORBEGNO (SO)",
     "Ente": "ASST VALTELLINA E ALTO LARIO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -13818,19 +13949,20 @@
         "Nome": "TERAPIA INTENSIVA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 12,
     "Rating_dimensioni": {},
-    "Latitudine": 46.133897,
-    "Longitudine": 9.5740462
+    "Latitudine": 46.1336867,
+    "Longitudine": 9.5734515
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO TRIBANDI PAVONI DI ORZINUOVI",
-    "Indirizzo": "VIALE FRANCESCO CRISPI, 4",
     "Città": "ORZINUOVI",
     "Provincia": "BS",
+    "Indirizzo": "VIALE FRANCESCO CRISPI, 4 - ORZINUOVI (BS)",
     "Ente": "ASST FRANCIACORTA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "ANALISI DI LABORATORIO"
@@ -13884,7 +14016,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 17,
     "Rating_dimensioni": {},
@@ -13893,10 +14025,11 @@
   },
   {
     "Nome": "PRESIDIO RIABILITATIVO MULTIFUNZIONALE DON PRIMO MAZZOLARI DI BOZZOLO",
-    "Indirizzo": "VIA XXV APRILE, 71",
     "Città": "BOZZOLO",
     "Provincia": "MN",
+    "Indirizzo": "VIA XXV APRILE, 71 - BOZZOLO (MN)",
     "Ente": "ASST MANTOVA",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "RADIOLOGIA E DIAGNOSTICA PER IMMAGINI"
@@ -13905,7 +14038,7 @@
         "Nome": "RIABILITAZIONE ORTOPEDICA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 2,
     "Rating_dimensioni": {},
@@ -13914,10 +14047,11 @@
   },
   {
     "Nome": "PRESIDIO RIABILITATIVO UMBERTO I DI BELLANO",
-    "Indirizzo": "VIA CARLO ALBERTO, 25",
     "Città": "BELLANO",
     "Provincia": "LC",
+    "Indirizzo": "VIA CARLO ALBERTO, 25 - BELLANO (LC)",
     "Ente": "ASST LECCO",
+    "Classificazione": "SPOKE",
     "Aree_specialistiche": [
       {
         "Nome": "CARDIOLOGIA"
@@ -13950,7 +14084,7 @@
         "Nome": "UROLOGIA E ANDROLOGIA"
       }
     ],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": 0,
     "N_aree": 10,
     "Rating_dimensioni": {},
@@ -13958,13 +14092,14 @@
     "Longitudine": 9.3058267
   },
   {
-    "Nome": "CASA DI COMUNITA' GIUDITTA VIMERCATE",
-    "Indirizzo": "VIA GIUDITTA BRAMBILLA, 11",
+    "Nome": "CASA DI COMUNITÀ GIUDITTA VIMERCATE",
     "Città": "VIMERCATE",
     "Provincia": "MB",
+    "Indirizzo": "VIA GIUDITTA BRAMBILLA, 11 - VIMERCATE (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -13972,13 +14107,14 @@
     "Longitudine": 9.3590128
   },
   {
-    "Nome": "CASA DI COMUNITA' BRESCIA NAVE",
-    "Indirizzo": "VIA BRESCIA, 155",
+    "Nome": "CASA DI COMUNITÀ BRESCIA NAVE",
     "Città": "NAVE",
     "Provincia": "BS",
+    "Indirizzo": "VIA BRESCIA, 155 - NAVE (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -13986,13 +14122,14 @@
     "Longitudine": 10.2790661
   },
   {
-    "Nome": "CASA DI COMUNITA' AGOI BORMIO",
-    "Indirizzo": "VIA AGOI, 8",
+    "Nome": "CASA DI COMUNITÀ AGOI BORMIO",
     "Città": "BORMIO",
     "Provincia": "SO",
+    "Indirizzo": "VIA AGOI, 8 - BORMIO (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14000,27 +14137,29 @@
     "Longitudine": 10.35957
   },
   {
-    "Nome": "CASA DI COMUNITA' RAFFAELLO TRAVAGLIATO",
-    "Indirizzo": "VIA RAFFAELLO, 24",
+    "Nome": "CASA DI COMUNITÀ RAFFAELLO TRAVAGLIATO",
     "Città": "TRAVAGLIATO",
     "Provincia": "BS",
+    "Indirizzo": "VIA RAFFAELLO, 24 - TRAVAGLIATO (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5257454,
-    "Longitudine": 10.0829951
+    "Latitudine": 45.5273822,
+    "Longitudine": 10.0830542
   },
   {
-    "Nome": "CASA DI COMUNITA' DON ORIONE MILANO",
-    "Indirizzo": "VIA DON ORIONE, 2",
+    "Nome": "CASA DI COMUNITÀ DON ORIONE MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA DON ORIONE, 2 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14028,27 +14167,29 @@
     "Longitudine": 9.5120927
   },
   {
-    "Nome": "CASA DI COMUNITA' AMADINI TAVERNOLE SUL MELLA",
-    "Indirizzo": "VIA AMADINI, 43",
+    "Nome": "CASA DI COMUNITÀ AMADINI TAVERNOLE SUL MELLA",
     "Città": "TAVERNOLE SUL MELLA",
     "Provincia": "BS",
+    "Indirizzo": "VIA AMADINI, 43 - TAVERNOLE SUL MELLA (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.74994,
-    "Longitudine": 10.24126
+    "Latitudine": 45.7498244,
+    "Longitudine": 10.2411325
   },
   {
-    "Nome": "CASA DI COMUNITA' MONREALE MILANO",
-    "Indirizzo": "VIA MONREALE, 13",
+    "Nome": "CASA DI COMUNITÀ MONREALE MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA MONREALE, 13 - MILANO (MI)",
     "Ente": "ASST SANTI PAOLO E CARLO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14056,27 +14197,29 @@
     "Longitudine": 9.139687
   },
   {
-    "Nome": "CASA DI COMUNITA' BETELLI DALMINE",
-    "Indirizzo": "VIA BETELLI, 2",
+    "Nome": "CASA DI COMUNITÀ BETELLI DALMINE",
     "Città": "DALMINE",
     "Provincia": "BG",
+    "Indirizzo": "VIALE NATALE BETELLI, 2 - DALMINE (BG)",
     "Ente": "ASST DI BERGAMO OVEST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6468062,
-    "Longitudine": 9.5981813
+    "Latitudine": 45.648401,
+    "Longitudine": 9.6020887
   },
   {
-    "Nome": "CASA DI COMUNITA' MAGGIORE MARTINENGO",
-    "Indirizzo": "PIAZZA MAGGIORE, 11",
+    "Nome": "CASA DI COMUNITÀ MAGGIORE MARTINENGO",
     "Città": "MARTINENGO",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZA MAGGIORE, 11 - MARTINENGO (BG)",
     "Ente": "ASST DI BERGAMO OVEST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14084,13 +14227,14 @@
     "Longitudine": 9.7673196
   },
   {
-    "Nome": "CASA DI COMUNITA' MATTEOTTI TREVIGLIO",
-    "Indirizzo": "VIA MATTEOTTI, 4",
+    "Nome": "CASA DI COMUNITÀ MATTEOTTI TREVIGLIO",
     "Città": "TREVIGLIO",
     "Provincia": "BG",
+    "Indirizzo": "VIA MATTEOTTI, 4 - TREVIGLIO (BG)",
     "Ente": "ASST DI BERGAMO OVEST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14098,13 +14242,14 @@
     "Longitudine": 9.5909047
   },
   {
-    "Nome": "CASA DI COMUNITA' S. FRANCESCO PIOLTELLO",
-    "Indirizzo": "VIA S. FRANCESCO, 16",
+    "Nome": "CASA DI COMUNITÀ S. FRANCESCO PIOLTELLO",
     "Città": "PIOLTELLO",
     "Provincia": "MI",
+    "Indirizzo": "VIA S. FRANCESCO, 16 - PIOLTELLO (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14112,111 +14257,119 @@
     "Longitudine": 9.3236323
   },
   {
-    "Nome": "CASA DI COMUNITA' PRADELLI BERBENNO DI VALTELLINA",
-    "Indirizzo": "VIA PRADELLI, 215",
+    "Nome": "CASA DI COMUNITÀ PRADELLI BERBENNO DI VALTELLINA",
     "Città": "BERBENNO DI VALTELLINA",
     "Provincia": "SO",
+    "Indirizzo": "VIA PRADELLI, 215 - BERBENNO DI VALTELLINA (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 46.1633246,
-    "Longitudine": 9.742829
+    "Latitudine": 46.163843,
+    "Longitudine": 9.7366017
   },
   {
-    "Nome": "CASA DI COMUNITA' ALDO MORO OLGIATE MOLGORA",
-    "Indirizzo": "VIA ALDO MORO 8/10",
+    "Nome": "CASA DI COMUNITÀ ALDO MORO OLGIATE MOLGORA",
     "Città": "OLGIATE MOLGORA",
     "Provincia": "LC",
+    "Indirizzo": "VIA ALDO MORO, 8/10 - OLGIATE MOLGORA (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.7303,
-    "Longitudine": 9.4033
+    "Latitudine": 45.7227724,
+    "Longitudine": 9.3986973
   },
   {
-    "Nome": "CASA DI COMUNITA' MAZZINI FLERO",
-    "Indirizzo": "VIA MAZZINI, 15",
+    "Nome": "CASA DI COMUNITÀ MAZZINI FLERO",
     "Città": "FLERO",
     "Provincia": "BS",
+    "Indirizzo": "VIA MAZZINI, 15 - FLERO (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.479646,
-    "Longitudine": 10.175974
+    "Latitudine": 45.4822956,
+    "Longitudine": 10.1769254
   },
   {
-    "Nome": "CASA DI COMUNITA' RUGABELLA MILANO",
-    "Indirizzo": "VIA RUGABELLA, 4",
+    "Nome": "CASA DI COMUNITÀ RUGABELLA MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA RUGABELLA, 4 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.458976,
-    "Longitudine": 9.189138
+    "Latitudine": 45.458984,
+    "Longitudine": 9.1891977
   },
   {
-    "Nome": "CASA DI COMUNITA' TERENGHI CINISELLO BALSAMO",
-    "Indirizzo": "VIA TERENGHI, 2",
+    "Nome": "CASA DI COMUNITÀ TERENGHI CINISELLO BALSAMO",
     "Città": "CINISELLO BALSAMO",
     "Provincia": "MI",
+    "Indirizzo": "VIA TERENGHI, 2 - CINISELLO BALSAMO (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5564262,
-    "Longitudine": 9.2252703
+    "Latitudine": 45.5564175,
+    "Longitudine": 9.2234698
   },
   {
-    "Nome": "CASA DI COMUNITA' PADANA SUPERIORE OSPITALETTO",
-    "Indirizzo": "VIA PADANA SUPERIORE, 98",
+    "Nome": "CASA DI COMUNITÀ PADANA SUPERIORE OSPITALETTO",
     "Città": "OSPITALETTO",
     "Provincia": "BS",
+    "Indirizzo": "VIA PADANA SUPERIORE, 98 - OSPITALETTO (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5545702,
-    "Longitudine": 10.0850683
+    "Latitudine": 45.5550061,
+    "Longitudine": 10.081445
   },
   {
-    "Nome": "CASA DI COMUNITA' OSPEDALE CALCINATE",
-    "Indirizzo": "PIAZZALE OSPEDALE, 3",
+    "Nome": "CASA DI COMUNITÀ OSPEDALE CALCINATE",
     "Città": "CALCINATE",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZA OSPEDALE, 3 - CALCINATE (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6214681,
-    "Longitudine": 9.7968894
+    "Latitudine": 45.6198516,
+    "Longitudine": 9.7953154
   },
   {
-    "Nome": "CASA DI COMUNITA' SOMVICO CLUSONE",
-    "Indirizzo": "VIA SOMVICO, 2",
+    "Nome": "CASA DI COMUNITÀ SOMVICO CLUSONE",
     "Città": "CLUSONE",
     "Provincia": "BG",
+    "Indirizzo": "VIA SOMVICO, 2 - CLUSONE (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14224,13 +14377,14 @@
     "Longitudine": 9.9528434
   },
   {
-    "Nome": "CASA DI COMUNITA' CENTURELLI BRESSO",
-    "Indirizzo": "VIA CENTURELLI, 46",
+    "Nome": "CASA DI COMUNITÀ CENTURELLI BRESSO",
     "Città": "BRESSO",
     "Provincia": "MI",
+    "Indirizzo": "VIA CENTURELLI, 46 - BRESSO (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14238,13 +14392,14 @@
     "Longitudine": 9.1894004
   },
   {
-    "Nome": "CASA DI COMUNITA' STATALE GOITESE GOITO",
-    "Indirizzo": "STRADA STATALE GOITESE, 313",
+    "Nome": "CASA DI COMUNITÀ STATALE GOITESE GOITO",
     "Città": "GOITO",
     "Provincia": "MN",
+    "Indirizzo": "STRADA STATALE GOITESE, 313 - GOITO (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14252,13 +14407,14 @@
     "Longitudine": 10.7124134
   },
   {
-    "Nome": "CASA DI COMUNITA' POLINI VILMINORE DI SCALVE",
-    "Indirizzo": "VIA POLINI, 7",
+    "Nome": "CASA DI COMUNITÀ POLINI VILMINORE DI SCALVE",
     "Città": "VILMINORE DI SCALVE",
     "Provincia": "BG",
+    "Indirizzo": "VIA POLINI, 7 - VILMINORE DI SCALVE (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14266,13 +14422,14 @@
     "Longitudine": 10.0906593
   },
   {
-    "Nome": "CASA DI COMUNITA' DUCA BRESCIA",
-    "Indirizzo": "VIA DUCA DEGLI ABRUZZI, 13",
+    "Nome": "CASA DI COMUNITÀ DUCA BRESCIA",
     "Città": "BRESCIA",
     "Provincia": "BS",
+    "Indirizzo": "VIA DUCA DEGLI ABRUZZI, 13 - BRESCIA (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14280,27 +14437,29 @@
     "Longitudine": 10.2699893
   },
   {
-    "Nome": "CASA DI COMUNITA' MORELLI MORBEGNO",
-    "Indirizzo": "VIA MORELLI, 1",
+    "Nome": "CASA DI COMUNITÀ MORELLI MORBEGNO",
     "Città": "MORBEGNO",
     "Provincia": "SO",
+    "Indirizzo": "VIA MORELLI, 1 - MORBEGNO (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 46.133897,
-    "Longitudine": 9.5740462
+    "Latitudine": 46.1336867,
+    "Longitudine": 9.5734515
   },
   {
-    "Nome": "CASA DI COMUNITA' GINESTRA CUSANO MILANINO",
-    "Indirizzo": "VIA GINESTRA, 1",
+    "Nome": "CASA DI COMUNITÀ GINESTRA CUSANO MILANINO",
     "Città": "CUSANO MILANINO",
     "Provincia": "MI",
+    "Indirizzo": "VIA GINESTRA, 1 - CUSANO MILANINO (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14308,41 +14467,44 @@
     "Longitudine": 9.1866696
   },
   {
-    "Nome": "CASA DI COMUNITA' QUINTINI DI VONA CASSANO D'ADDA",
-    "Indirizzo": "VIA QUINTINI DI VONA, 41",
+    "Nome": "CASA DI COMUNITÀ QUINTINI DI VONA CASSANO D'ADDA",
     "Città": "CASSANO D'ADDA",
     "Provincia": "MI",
+    "Indirizzo": "VIA Q. DI VONA, 41 - CASSANO D'ADDA (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5263333,
-    "Longitudine": 9.5214907
+    "Latitudine": 45.5228557,
+    "Longitudine": 9.5132284
   },
   {
-    "Nome": "CASA DI COMUNITA' ITALIA CAMPIONE D'ITALIA",
-    "Indirizzo": "CORSO ITALIA, 10",
+    "Nome": "CASA DI COMUNITÀ ITALIA CAMPIONE D'ITALIA",
     "Città": "CAMPIONE D'ITALIA",
     "Provincia": "CO",
+    "Indirizzo": "CORSO ITALIA, 10 - CAMPIONE D'ITALIA (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.9667534,
-    "Longitudine": 8.9711203
+    "Latitudine": 45.9630799,
+    "Longitudine": 8.9697763
   },
   {
-    "Nome": "CASA DI COMUNITA' STELVIO BUSTO ARSIZIO",
-    "Indirizzo": "VIALE STELVIO, 3",
+    "Nome": "CASA DI COMUNITÀ STELVIO BUSTO ARSIZIO",
     "Città": "BUSTO ARSIZIO",
     "Provincia": "VA",
+    "Indirizzo": "VIALE STELVIO, 3 - BUSTO ARSIZIO (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14350,13 +14512,14 @@
     "Longitudine": 8.8443137
   },
   {
-    "Nome": "CASA DI COMUNITA' FARINI MILANO",
-    "Indirizzo": "VIA FARINI, 9",
+    "Nome": "CASA DI COMUNITÀ FARINI MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA FARINI, 9 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14364,13 +14527,14 @@
     "Longitudine": 9.1816088
   },
   {
-    "Nome": "CASA DI COMUNITA' CERERIA CHIAVENNA",
-    "Indirizzo": "VIA CERERIA, 4",
+    "Nome": "CASA DI COMUNITÀ CERERIA CHIAVENNA",
     "Città": "CHIAVENNA",
     "Provincia": "SO",
+    "Indirizzo": "VIA CERERIA, 4 - CHIAVENNA (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14378,27 +14542,29 @@
     "Longitudine": 9.3998553
   },
   {
-    "Nome": "CASA DI COMUNITA' FRATELLI KENNEDY REZZATO",
-    "Indirizzo": "VIA FRATELLI KENNEDY, 115",
+    "Nome": "CASA DI COMUNITÀ FRATELLI KENNEDY REZZATO",
     "Città": "REZZATO",
     "Provincia": "BS",
+    "Indirizzo": "VIA FRATELLI KENNEDY, 115 - REZZATO (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5108409,
-    "Longitudine": 10.3263442
+    "Latitudine": 45.5118231,
+    "Longitudine": 10.3276552
   },
   {
-    "Nome": "CASA DI COMUNITA' BETTINI QUISTELLO",
-    "Indirizzo": "VIA BETTINI, 1",
+    "Nome": "CASA DI COMUNITÀ BETTINI QUISTELLO",
     "Città": "QUISTELLO",
     "Provincia": "MN",
+    "Indirizzo": "VIA BETTINI, 1 - QUISTELLO (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14406,13 +14572,14 @@
     "Longitudine": 10.9833108
   },
   {
-    "Nome": "CASA DI COMUNITA' GRAMSCI CREMA",
-    "Indirizzo": "VIA GRAMSCI, 13",
+    "Nome": "CASA DI COMUNITÀ GRAMSCI CREMA",
     "Città": "CREMA",
     "Provincia": "CR",
+    "Indirizzo": "VIA GRAMSCI, 13 - CREMA (CR)",
     "Ente": "ASST DI CREMA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14420,27 +14587,29 @@
     "Longitudine": 9.6798105
   },
   {
-    "Nome": "CASA DI COMUNITA' AMENDOLA SEGRATE",
-    "Indirizzo": "VIA AMENDOLA S.N.C.",
+    "Nome": "CASA DI COMUNITÀ AMENDOLA SEGRATE",
     "Città": "SEGRATE",
     "Provincia": "MI",
+    "Indirizzo": "VIA AMENDOLA, 3 - SEGRATE (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.4907352,
-    "Longitudine": 9.2948204
+    "Latitudine": 45.4991388,
+    "Longitudine": 9.2848295
   },
   {
-    "Nome": "CASA DI COMUNITA' BORGO PALAZZO BERGAMO",
-    "Indirizzo": "VIA BORGO PALAZZO, 130",
+    "Nome": "CASA DI COMUNITÀ BORGO PALAZZO BERGAMO",
     "Città": "BERGAMO",
     "Provincia": "BG",
+    "Indirizzo": "VIA BORGO PALAZZO, 130 - BERGAMO (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14448,41 +14617,44 @@
     "Longitudine": 9.6969736
   },
   {
-    "Nome": "CASA DI COMUNITA' LIVIGNO (EX JENNER) MILANO",
-    "Indirizzo": "VIA LIVIGNO2/A",
+    "Nome": "CASA DI COMUNITÀ LIVIGNO (EX JENNER) MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA LIVIGNO, 2/A - MILANO (MI)",
     "Ente": "ASST GOM NIGUARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.4641943,
-    "Longitudine": 9.1896346
+    "Latitudine": 45.4974463,
+    "Longitudine": 9.1789138
   },
   {
-    "Nome": "CASA DI COMUNITA' MARCONI SERIATE",
-    "Indirizzo": "VIA MARCONI, 38",
+    "Nome": "CASA DI COMUNITÀ MARCONI SERIATE",
     "Città": "SERIATE",
     "Provincia": "BG",
+    "Indirizzo": "VIA MARCONI, 38 - SERIATE (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6849962,
-    "Longitudine": 9.7264119
+    "Latitudine": 45.6820632,
+    "Longitudine": 9.7282136
   },
   {
-    "Nome": "CASA DI COMUNITA' EUROPA PONTE DI LEGNO",
-    "Indirizzo": "PIAZZALE EUROPA",
+    "Nome": "CASA DI COMUNITÀ EUROPA PONTE DI LEGNO",
     "Città": "PONTE DI LEGNO",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZALE EUROPA - PONTE DI LEGNO (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14490,13 +14662,14 @@
     "Longitudine": 10.5089114
   },
   {
-    "Nome": "CASA DELLA COMUNITA' DI CERNUSCO SUL NAVIGLIO",
-    "Indirizzo": "UBOLDO, 36",
+    "Nome": "CASA DI COMUNITÀ CERNUSCO SUL NAVIGLIO",
     "Città": "CERNUSCO SUL NAVIGLIO",
     "Provincia": "MI",
+    "Indirizzo": "VIA UBOLDO, 36 - CERNUSCO SUL NAVIGLIO (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14504,13 +14677,14 @@
     "Longitudine": 9.3281926
   },
   {
-    "Nome": "CASA DI COMUNITA' ROMA VILLA D'ALME'",
-    "Indirizzo": "VIA ROMA, 16",
+    "Nome": "CASA DI COMUNITÀ ROMA VILLA D'ALME'",
     "Città": "VILLA D'ALMÈ",
     "Provincia": "BG",
+    "Indirizzo": "VIA ROMA, 16 - VILLA D'ALMÈ (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14518,13 +14692,14 @@
     "Longitudine": 9.614955
   },
   {
-    "Nome": "CASA DI COMUNITA' FIUME SARONNO",
-    "Indirizzo": "VIA FIUME, 12",
+    "Nome": "CASA DI COMUNITÀ FIUME SARONNO",
     "Città": "SARONNO",
     "Provincia": "VA",
+    "Indirizzo": "VIA FIUME, 12 - SARONNO (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14532,13 +14707,14 @@
     "Longitudine": 9.022875
   },
   {
-    "Nome": "CASA DI COMUNITA' BELOTTI ZOGNO",
-    "Indirizzo": "PIAZZA BELOTTI, 1",
+    "Nome": "CASA DI COMUNITÀ BELOTTI ZOGNO",
     "Città": "ZOGNO",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZA BELOTTI, 1 - ZOGNO (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14546,27 +14722,29 @@
     "Longitudine": 9.6619022
   },
   {
-    "Nome": "CASA DI COMUNITA' BOCCACCIO COLOGNO MONZESE",
-    "Indirizzo": "VIA BOCCACCIO, 17",
+    "Nome": "CASA DI COMUNITÀ BOCCACCIO COLOGNO MONZESE",
     "Città": "COLOGNO MONZESE",
     "Provincia": "MI",
+    "Indirizzo": "VIA BOCCACCIO, 17 - COLOGNO MONZESE (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5350092,
-    "Longitudine": 9.281235
+    "Latitudine": 45.5348379,
+    "Longitudine": 9.2812247
   },
   {
-    "Nome": "CASA DI COMUNITA' GOLA MILANO",
-    "Indirizzo": "VIA GOLA, 22",
+    "Nome": "CASA DI COMUNITÀ GOLA MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA GOLA, 22 - MILANO (MI)",
     "Ente": "ASST SANTI PAOLO E CARLO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14574,13 +14752,14 @@
     "Longitudine": 9.1735624
   },
   {
-    "Nome": "CASA DI COMUNITA' UMBERTO I BERZO INFERIORE",
-    "Indirizzo": "PIAZZA UMBERTO I,7",
+    "Nome": "CASA DI COMUNITÀ UMBERTO I BERZO INFERIORE",
     "Città": "BERZO INFERIORE",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA UMBERTO I, 7 - BERZO INFERIORE (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14588,13 +14767,14 @@
     "Longitudine": 10.2786001
   },
   {
-    "Nome": "CASA DI COMUNITA' NAPOLEONA COMO",
-    "Indirizzo": "VIA NAPOLEONA, 60",
+    "Nome": "CASA DI COMUNITÀ NAPOLEONA COMO",
     "Città": "COMO",
     "Provincia": "CO",
+    "Indirizzo": "VIA NAPOLEONA, 60 - COMO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14602,27 +14782,29 @@
     "Longitudine": 9.089754
   },
   {
-    "Nome": "CASA DI COMUNITA' DEL LAZZARETTO BELLAGIO",
-    "Indirizzo": "VIA DEL LAZZARETTO, 12",
+    "Nome": "CASA DI COMUNITÀ DEL LAZZARETTO BELLAGIO",
     "Città": "BELLAGIO",
     "Provincia": "CO",
+    "Indirizzo": "VIA LAZZARETTO, 12 - BELLAGIO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.9872549,
-    "Longitudine": 9.2613001
+    "Latitudine": 45.9767145,
+    "Longitudine": 9.2590602
   },
   {
-    "Nome": "CASA DI COMUNITA' BUTTAFAVA CASSANO MAGNAGO",
-    "Indirizzo": "VIA BUTTAFAVA, 15",
+    "Nome": "CASA DI COMUNITÀ BUTTAFAVA CASSANO MAGNAGO",
     "Città": "CASSANO MAGNAGO",
     "Provincia": "VA",
+    "Indirizzo": "VIA BUTTAFAVA, 15 - CASSANO MAGNAGO (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14630,13 +14812,14 @@
     "Longitudine": 8.8282084
   },
   {
-    "Nome": "CASA DI COMUNITA' CERETTI LAVENO-MOMBELLO",
-    "Indirizzo": "VIA CERETTI, 8",
+    "Nome": "CASA DI COMUNITÀ CERETTI LAVENO-MOMBELLO",
     "Città": "LAVENO-MOMBELLO",
     "Provincia": "VA",
+    "Indirizzo": "VIA CERETTI, 8 - LAVENO-MOMBELLO (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14644,13 +14827,14 @@
     "Longitudine": 8.6226958
   },
   {
-    "Nome": "CASA DI COMUNITA' DONATORE DI SANGUE MAGENTA",
-    "Indirizzo": "VIA DONATORE DI SANGUE, 50",
+    "Nome": "CASA DI COMUNITÀ DONATORE DI SANGUE MAGENTA",
     "Città": "MAGENTA",
     "Provincia": "MI",
+    "Indirizzo": "VIA DONATORE DI SANGUE, 50 - MAGENTA (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14658,13 +14842,14 @@
     "Longitudine": 8.8936029
   },
   {
-    "Nome": "CASA DI COMUNITA' ITALIA MACHERIO",
-    "Indirizzo": "VIA ITALIA, 13",
+    "Nome": "CASA DI COMUNITÀ ITALIA MACHERIO",
     "Città": "MACHERIO",
     "Provincia": "MB",
+    "Indirizzo": "VIA ITALIA, 13 - MACHERIO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14672,13 +14857,14 @@
     "Longitudine": 9.2684525
   },
   {
-    "Nome": "CASA DI COMUNITA' ANTONIO GHISLANZONI LECCO",
-    "Indirizzo": "VIA ANTONIO GHISLANZONI",
+    "Nome": "CASA DI COMUNITÀ ANTONIO GHISLANZONI LECCO",
     "Città": "LECCO",
     "Provincia": "LC",
+    "Indirizzo": "VIA ANTONIO GHISLANZONI, 9 - LECCO (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14686,27 +14872,29 @@
     "Longitudine": 9.3997317
   },
   {
-    "Nome": "CASA DI COMUNITA' CARDINAL DELL'ACQUA SESTO CALENDE",
-    "Indirizzo": "LARGO CARDINAL DELL'ACQUA, 1",
+    "Nome": "CASA DI COMUNITÀ CARDINAL DELL'ACQUA SESTO CALENDE",
     "Città": "SESTO CALENDE",
     "Provincia": "VA",
+    "Indirizzo": "LARGO CARDINALE DELL'ACQUA, 1 - SESTO CALENDE (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.7239553,
-    "Longitudine": 8.6343618
+    "Latitudine": 45.7303017,
+    "Longitudine": 8.6298946
   },
   {
-    "Nome": "CASA DI COMUNITA' SAN SEBASTIANO CREMONA",
-    "Indirizzo": "VIA SAN SEBASTIANO, 14",
+    "Nome": "CASA DI COMUNITÀ SAN SEBASTIANO CREMONA",
     "Città": "CREMONA",
     "Provincia": "CR",
+    "Indirizzo": "VIA SAN SEBASTIANO, 14 - CREMONA (CR)",
     "Ente": "ASST DI CREMONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14714,13 +14902,14 @@
     "Longitudine": 10.0448172
   },
   {
-    "Nome": "CASA DI COMUNITA' NAZIONALE CEDEGOLO",
-    "Indirizzo": "VIA NAZIONALE, 103",
+    "Nome": "CASA DI COMUNITÀ NAZIONALE CEDEGOLO",
     "Città": "CEDEGOLO",
     "Provincia": "BS",
+    "Indirizzo": "VIA NAZIONALE, 103 - CEDEGOLO (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14728,13 +14917,14 @@
     "Longitudine": 10.3464872
   },
   {
-    "Nome": "CASA DI COMUNITA' GARIBALDI LENTATE SUL SEVESO",
-    "Indirizzo": "VIA GARIBALDI, 37",
+    "Nome": "CASA DI COMUNITÀ GARIBALDI LENTATE SUL SEVESO",
     "Città": "LENTATE SUL SEVESO",
     "Provincia": "MB",
+    "Indirizzo": "VIA GARIBALDI, 37 - LENTATE SUL SEVESO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14742,13 +14932,14 @@
     "Longitudine": 9.1192487
   },
   {
-    "Nome": "CASA DI COMUNITA' DI LODI",
-    "Indirizzo": "VIALE SAVOIA, 1",
+    "Nome": "CASA DI COMUNITÀ DI LODI",
     "Città": "LODI",
     "Provincia": "LO",
+    "Indirizzo": "VIALE SAVOIA, 1 - LODI (LO)",
     "Ente": "ASST DI LODI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14756,27 +14947,29 @@
     "Longitudine": 9.5097746
   },
   {
-    "Nome": "CASA DI COMUNITA' SCHIANTARELLI ASOLA",
-    "Indirizzo": "VIA SCHIANTARELLI, 3",
+    "Nome": "CASA DI COMUNITÀ SCHIANTARELLI ASOLA",
     "Città": "ASOLA",
     "Provincia": "MN",
+    "Indirizzo": "VIA SCHIANTARELLI, 3 - ASOLA (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.2217749,
-    "Longitudine": 10.4110526
+    "Latitudine": 45.2212634,
+    "Longitudine": 10.4112314
   },
   {
-    "Nome": "CASA DI COMUNITA' GARIBALDI BERGAMO",
-    "Indirizzo": "VIA GARIBALDI 13/15",
+    "Nome": "CASA DI COMUNITÀ GARIBALDI BERGAMO",
     "Città": "BERGAMO",
     "Provincia": "BG",
+    "Indirizzo": "VIA GARIBALDI, 13/15 - BERGAMO (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14784,27 +14977,29 @@
     "Longitudine": 9.9458846
   },
   {
-    "Nome": "CASA DI COMUNITA' VANONCINI SANT'OMOBONO TERME",
-    "Indirizzo": "VIA VANONCINI, 25",
+    "Nome": "CASA DI COMUNITÀ VANONCINI SANT'OMOBONO TERME",
     "Città": "SANT'OMOBONO TERME",
     "Provincia": "BG",
+    "Indirizzo": "VIA GIANANTONIO VANONCINI, 25 -  SANT'OMOBONO TERME (BG)",
     "Ente": "ASST PAPA GIOVANNI XXIII",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.8116872,
-    "Longitudine": 9.5359629
+    "Latitudine": 45.8133656,
+    "Longitudine": 9.5300692
   },
   {
-    "Nome": "CASA DI COMUNITA' IPPOCRATE MILANO",
-    "Indirizzo": "VIA IPPOCRATE, 45",
+    "Nome": "CASA DI COMUNITÀ IPPOCRATE MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA IPPOCRATE, 45 - MILANO (MI)",
     "Ente": "ASST GOM NIGUARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14812,13 +15007,14 @@
     "Longitudine": 9.1639709
   },
   {
-    "Nome": "CASA DI COMUNITA' VILLA SIRONI GIOVINE ITALIA GALLARATE",
-    "Indirizzo": "PIAZZA GIOVINE ITALIA, 2",
+    "Nome": "CASA DI COMUNITÀ VILLA SIRONI GIOVINE ITALIA GALLARATE",
     "Città": "GALLARATE",
     "Provincia": "VA",
+    "Indirizzo": "PIAZZA GIOVINE ITALIA, 2 - GALLARATE (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14826,13 +15022,14 @@
     "Longitudine": 8.7903261
   },
   {
-    "Nome": "CASA DI COMUNITA' ALDO MORO BARBARIGA",
-    "Indirizzo": "PIAZZA ALDO MORO, 4",
+    "Nome": "CASA DI COMUNITÀ ALDO MORO BARBARIGA",
     "Città": "BARBARIGA",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA ALDO MORO, 4 - BARBARIGA (BS)",
     "Ente": "ASST DELLA FRANCIACORTA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14840,13 +15037,14 @@
     "Longitudine": 10.0557811
   },
   {
-    "Nome": "CASA DI COMUNITA' CORSICA BRESCIA",
-    "Indirizzo": "VIA CORSICA, 145",
+    "Nome": "CASA DI COMUNITÀ CORSICA BRESCIA",
     "Città": "BRESCIA",
     "Provincia": "BS",
+    "Indirizzo": "VIA CORSICA, 145 - BRESCIA (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14854,13 +15052,14 @@
     "Longitudine": 10.2075804
   },
   {
-    "Nome": "CASA DI COMUNITA' REPUBBLICA GARGNANO",
-    "Indirizzo": "VIA REPUBBLICA, 2",
+    "Nome": "CASA DI COMUNITÀ REPUBBLICA GARGNANO",
     "Città": "GARGNANO",
     "Provincia": "BS",
+    "Indirizzo": "VIA REPUBBLICA, 2 - GARGNANO (BS)",
     "Ente": "ASST DEL GARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14868,13 +15067,14 @@
     "Longitudine": 10.7004456
   },
   {
-    "Nome": "CASA DI COMUNITA' ITALIA OLGIATE COMASCO",
-    "Indirizzo": "PIAZZA ITALIA, 8",
+    "Nome": "CASA DI COMUNITÀ ITALIA OLGIATE COMASCO",
     "Città": "OLGIATE COMASCO",
     "Provincia": "CO",
+    "Indirizzo": "PIAZZA ITALIA, 8 - OLGIATE COMASCO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14882,13 +15082,14 @@
     "Longitudine": 8.9654025
   },
   {
-    "Nome": "CASA DI COMUNITA' CASARTELLI MENAGGIO",
-    "Indirizzo": "VIA CASARTELLI, 7",
+    "Nome": "CASA DI COMUNITÀ CASARTELLI MENAGGIO",
     "Città": "MENAGGIO",
     "Provincia": "CO",
+    "Indirizzo": "VIA CASARTELLI, 7 - MENAGGIO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14896,13 +15097,14 @@
     "Longitudine": 9.2290731
   },
   {
-    "Nome": "CASA DI COMUNITA' GARIBALDI PORLEZZA",
-    "Indirizzo": "VIA GARIBALDI, 64",
+    "Nome": "CASA DI COMUNITÀ GARIBALDI PORLEZZA",
     "Città": "PORLEZZA",
     "Provincia": "CO",
+    "Indirizzo": "VIA GARIBALDI, 64 - PORLEZZA (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14910,27 +15112,29 @@
     "Longitudine": 9.1183459
   },
   {
-    "Nome": "CASA DI COMUNITA' EMILIA BRONI",
-    "Indirizzo": "VIA EMILIA, 351",
+    "Nome": "CASA DI COMUNITÀ EMILIA BRONI",
     "Città": "BRONI",
     "Provincia": "PV",
+    "Indirizzo": "VIA EMILIA, 351 - BRONI (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.0651852,
-    "Longitudine": 9.2646212
+    "Latitudine": 45.0640602,
+    "Longitudine": 9.2636422
   },
   {
-    "Nome": "CASA DI COMUNITA' FLEMMING CASALPUSTERLENGO",
-    "Indirizzo": "VIA FLEMING, 1",
+    "Nome": "CASA DI COMUNITÀ FLEMMING CASALPUSTERLENGO",
     "Città": "CASALPUSTERLENGO",
     "Provincia": "LO",
+    "Indirizzo": "VIA FLEMING, 1 - CASALPUSTERLENGO (LO)",
     "Ente": "ASST DI LODI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14938,13 +15142,14 @@
     "Longitudine": 9.6513675
   },
   {
-    "Nome": "CASA DI COMUNITA' GANDOLFI CODOGNO",
-    "Indirizzo": "VIALE GANDOLFI, 2",
+    "Nome": "CASA DI COMUNITÀ GANDOLFI CODOGNO",
     "Città": "CODOGNO",
     "Provincia": "LO",
+    "Indirizzo": "VIALE GANDOLFI, 2 - CODOGNO (LO)",
     "Ente": "ASST DI LODI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14952,13 +15157,14 @@
     "Longitudine": 9.7093136
   },
   {
-    "Nome": "CASA DI COMUNITA' CAVOUR SAN GIULIANO MILANESE",
-    "Indirizzo": "VIA CAVOUR, 15",
+    "Nome": "CASA DI COMUNITÀ CAVOUR SAN GIULIANO MILANESE",
     "Città": "SAN GIULIANO MILANESE",
     "Provincia": "MI",
+    "Indirizzo": "VIA CAVOUR, 15 - SAN GIULIANO MILANESE (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14966,27 +15172,29 @@
     "Longitudine": 9.2863528
   },
   {
-    "Nome": "CASA DI COMUNITA' CORTE DEI FRATI BELLUSCO",
-    "Indirizzo": "VIA CORTE DEI FRATI",
+    "Nome": "CASA DI COMUNITÀ CORTE DEI FRATI BELLUSCO",
     "Città": "BELLUSCO",
     "Provincia": "MB",
+    "Indirizzo": "VIA CORTE DEI FRATI, 1 - BELLUSCO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6187478,
-    "Longitudine": 9.418633
+    "Latitudine": 45.6163882,
+    "Longitudine": 9.4147176
   },
   {
-    "Nome": "CASA DI COMUNITA' OSLAVIA SESTO SAN GIOVANNI",
-    "Indirizzo": "VIA OSLAVIA, 1",
+    "Nome": "CASA DI COMUNITÀ OSLAVIA SESTO SAN GIOVANNI",
     "Città": "SESTO SAN GIOVANNI",
     "Provincia": "MI",
+    "Indirizzo": "VIA OSLAVIA, 1 - SESTO SAN GIOVANNI (MI)",
     "Ente": "ASST NORD MILANO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -14994,13 +15202,14 @@
     "Longitudine": 9.2274159
   },
   {
-    "Nome": "CASA DI COMUNITA' GORIZIA TREZZO SULL'ADDA",
-    "Indirizzo": "P.LE GORIZIA, 2",
+    "Nome": "CASA DI COMUNITÀ GORIZIA TREZZO SULL'ADDA",
     "Città": "TREZZO SULL'ADDA",
     "Provincia": "MI",
+    "Indirizzo": "PIAZZALE GORIZIA, 2 - TREZZO SULL'ADDA (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15008,27 +15217,29 @@
     "Longitudine": 9.5163993
   },
   {
-    "Nome": "CASA DI COMUNITA' STELVIO SONDRIO",
-    "Indirizzo": "VIA STELVIO, 35",
+    "Nome": "CASA DI COMUNITÀ STELVIO SONDRIO",
     "Città": "SONDRIO",
     "Provincia": "SO",
+    "Indirizzo": "VIA STELVIO, 35 - SONDRIO (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 46.4707537,
-    "Longitudine": 10.3674204
+    "Latitudine": 46.4707539,
+    "Longitudine": 10.36742
   },
   {
-    "Nome": "CASA DI COMUNITA' GRADISCA TRADATE",
-    "Indirizzo": "VIA GRADISCA, 16",
+    "Nome": "CASA DI COMUNITÀ GRADISCA TRADATE",
     "Città": "TRADATE",
     "Provincia": "VA",
+    "Indirizzo": "VIA GRADISCA, 16 - TRADATE (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15036,13 +15247,14 @@
     "Longitudine": 8.912731
   },
   {
-    "Nome": "CASA DI COMUNITA' NEMBRINI GRUMELLO DEL MONTE",
-    "Indirizzo": "VIA NEMBRINI, 1",
+    "Nome": "CASA DI COMUNITÀ NEMBRINI GRUMELLO DEL MONTE",
     "Città": "GRUMELLO DEL MONTE",
     "Provincia": "BG",
+    "Indirizzo": "VIA NEMBRINI, 1 - GRUMELLO DEL MONTE (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15050,13 +15262,14 @@
     "Longitudine": 9.8676468
   },
   {
-    "Nome": "CASA DI COMUNITA' DON MOLETTA VAPRIO D'ADDA",
-    "Indirizzo": "VIA DON MOLETTA, 22",
+    "Nome": "CASA DI COMUNITÀ DON MOLETTA VAPRIO D'ADDA",
     "Città": "VAPRIO D'ADDA",
     "Provincia": "MI",
+    "Indirizzo": "VIA DON MOLETTA, 22 - VAPRIO D'ADDA (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15064,13 +15277,14 @@
     "Longitudine": 9.5273923
   },
   {
-    "Nome": "CASA DI COMUNITA' CAVOUR LONATE POZZOLO",
-    "Indirizzo": "VIA CAVOUR, 21",
+    "Nome": "CASA DI COMUNITÀ CAVOUR LONATE POZZOLO",
     "Città": "LONATE POZZOLO",
     "Provincia": "VA",
+    "Indirizzo": "VIA CAVOUR, 21 - LONATE POZZOLO (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15078,13 +15292,14 @@
     "Longitudine": 8.7519076
   },
   {
-    "Nome": "CASA DI COMUNITA' SAN CESANO MADERNO",
-    "Indirizzo": "VIA SAN CARLO 2/5",
+    "Nome": "CASA DI COMUNITÀ SAN CESANO MADERNO",
     "Città": "CESANO MADERNO",
     "Provincia": "MB",
+    "Indirizzo": "VIA SAN CARLO, 2/5 - CESANO MADERNO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15092,13 +15307,14 @@
     "Longitudine": 9.1659075
   },
   {
-    "Nome": "CASA DI COMUNITA' BERNASCONI LISSONE",
-    "Indirizzo": "VIA BERNASCONI, 16",
+    "Nome": "CASA DI COMUNITÀ BERNASCONI LISSONE",
     "Città": "LISSONE",
     "Provincia": "MB",
+    "Indirizzo": "VIA BERNASCONI, 16 - LISSONE (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15106,13 +15322,14 @@
     "Longitudine": 9.2383956
   },
   {
-    "Nome": "CASA DI COMUNITA' MARCONI OSSIMO",
-    "Indirizzo": "VIA MARCONI, 19",
+    "Nome": "CASA DI COMUNITÀ MARCONI OSSIMO",
     "Città": "OSSIMO",
     "Provincia": "BS",
+    "Indirizzo": "VIA MARCONI, 19 - OSSIMO (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15120,13 +15337,14 @@
     "Longitudine": 10.2276497
   },
   {
-    "Nome": "CASA DI COMUNITA' OSPEDALE TRESCORE BALNEARIO",
-    "Indirizzo": "VIA OSPEDALE, 34",
+    "Nome": "CASA DI COMUNITÀ OSPEDALE TRESCORE BALNEARIO",
     "Città": "TRESCORE BALNEARIO",
     "Provincia": "BG",
+    "Indirizzo": "VIA OSPEDALE, 34 - TRESCORE BALNEARIO (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15134,41 +15352,44 @@
     "Longitudine": 9.8413891
   },
   {
-    "Nome": "CASA DI COMUNITA' PALEOCAPA ALZANO LOMBARDO",
-    "Indirizzo": "VIA RIBOLLA, 1",
+    "Nome": "CASA DI COMUNITÀ PALEOCAPA ALZANO LOMBARDO",
     "Città": "ALZANO LOMBARDO",
     "Provincia": "BG",
+    "Indirizzo": "VIA RIBOLLA, 1 - ALZANO LOMBARDO (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.7305075,
-    "Longitudine": 9.7286319
+    "Latitudine": 45.7315993,
+    "Longitudine": 9.7285528
   },
   {
-    "Nome": "CASA DI COMUNITA' MONTEREGGIO CASATENOVO",
-    "Indirizzo": "VIA MONTEREGGIO, 13",
+    "Nome": "CASA DI COMUNITÀ MONTEREGGIO CASATENOVO",
     "Città": "CASATENOVO",
     "Provincia": "LC",
+    "Indirizzo": "VIA MONTEREGIO, 15 - CASATENOVO (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6979217,
-    "Longitudine": 9.3122039
+    "Latitudine": 45.6991716,
+    "Longitudine": 9.2974941
   },
   {
-    "Nome": "CASA DI COMUNITA' BADI - ROSSETTI CUGGIONO",
-    "Indirizzo": "VIA BADI 2/4",
+    "Nome": "CASA DI COMUNITÀ BADI - ROSSETTI CUGGIONO",
     "Città": "CUGGIONO",
     "Provincia": "MI",
+    "Indirizzo": "VIA BADI, 2/4 - CUGGIONO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15176,27 +15397,29 @@
     "Longitudine": 8.8219401
   },
   {
-    "Nome": "CASA DI COMUNITA' PLEBISCITO BUSTO ARSIZIO",
-    "Indirizzo": "PIAZZA PLEBISCITO",
+    "Nome": "CASA DI COMUNITÀ PLEBISCITO BUSTO ARSIZIO",
     "Città": "BUSTO ARSIZIO",
     "Provincia": "VA",
+    "Indirizzo": "PIAZZA PLEBISCITO, 1 - BUSTO ARSIZIO (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6077483,
-    "Longitudine": 8.8503135
+    "Latitudine": 45.607601,
+    "Longitudine": 8.8503178
   },
   {
-    "Nome": "CASA DI COMUNITA' PEDROTTI TIRANO",
-    "Indirizzo": "VIA PEDROTTI, 57",
+    "Nome": "CASA DI COMUNITÀ PEDROTTI TIRANO",
     "Città": "TIRANO",
     "Provincia": "SO",
+    "Indirizzo": "VIA PEDROTTI, 57 - TIRANO (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15204,13 +15427,14 @@
     "Longitudine": 10.1685218
   },
   {
-    "Nome": "CASA DI COMUNITA' MARTIRI DELLA LIBERTA' CHIARI",
-    "Indirizzo": "PIAZZA MARTIRI DELLA LIBERTA', 25",
+    "Nome": "CASA DI COMUNITÀ MARTIRI DELLA LIBERTÀ CHIARI",
     "Città": "CHIARI",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA MARTIRI DELLA LIBERTA', 25 - CHIARI (BS)",
     "Ente": "ASST DELLA FRANCIACORTA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15218,13 +15442,14 @@
     "Longitudine": 9.9302179
   },
   {
-    "Nome": "CASA DI COMUNITA' DI GAZZADA SCHIANNO",
-    "Indirizzo": "VIA ROMA, 18",
+    "Nome": "CASA DI COMUNITÀ DI GAZZADA SCHIANNO",
     "Città": "GAZZADA SCHIANNO",
     "Provincia": "VA",
+    "Indirizzo": "VIA ROMA, 18 - GAZZADA SCHIANNO (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15232,13 +15457,14 @@
     "Longitudine": 8.8242064
   },
   {
-    "Nome": "CASA DI COMUNITA' FOSCOLO DESIO",
-    "Indirizzo": "VIA FOSCOLO, 24",
+    "Nome": "CASA DI COMUNITÀ FOSCOLO DESIO",
     "Città": "DESIO",
     "Provincia": "MB",
+    "Indirizzo": "VIA FOSCOLO, 24 - DESIO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15246,13 +15472,14 @@
     "Longitudine": 9.2046303
   },
   {
-    "Nome": "CASA DI COMUNITA' VERDI SEREGNO",
-    "Indirizzo": "VIA VERDI, 2",
+    "Nome": "CASA DI COMUNITÀ VERDI SEREGNO",
     "Città": "SEREGNO",
     "Provincia": "MB",
+    "Indirizzo": "VIA VERDI, 2 - SEREGNO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15260,27 +15487,29 @@
     "Longitudine": 9.2055584
   },
   {
-    "Nome": "CASA DI COMUNITA' BERGAMO CALOLZIOCORTE",
-    "Indirizzo": "CORSO BERGAMO, 1",
+    "Nome": "CASA DI COMUNITÀ BERGAMO CALOLZIOCORTE",
     "Città": "CALOLZIOCORTE",
     "Provincia": "LC",
+    "Indirizzo": "VIA BERGAMO, 1 - CALOLZIOCORTE (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.8014719,
-    "Longitudine": 9.4329787
+    "Latitudine": 45.7909218,
+    "Longitudine": 9.4411438
   },
   {
-    "Nome": "CASA DI COMUNITA' PIAVE BOLLATE",
-    "Indirizzo": "VIA PIAVE, 20",
+    "Nome": "CASA DI COMUNITÀ PIAVE BOLLATE",
     "Città": "BOLLATE",
     "Provincia": "MI",
+    "Indirizzo": "VIA PIAVE, 20 - BOLLATE (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15288,13 +15517,14 @@
     "Longitudine": 9.1170806
   },
   {
-    "Nome": "CASA DI COMUNITA' CESATE GARBAGNATE MILANESE",
-    "Indirizzo": "VIA PER CESATE, 62",
+    "Nome": "CASA DI COMUNITÀ CESATE GARBAGNATE MILANESE",
     "Città": "GARBAGNATE MILANESE",
     "Provincia": "MI",
+    "Indirizzo": "VIA PER CESATE, 62 - GARBAGNATE MILANESE (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15302,13 +15532,14 @@
     "Longitudine": 9.0793117
   },
   {
-    "Nome": "CASA DI COMUNITA' CARLO ALBERTO BELLANO",
-    "Indirizzo": "VIA CARLO ALBERTO, 25",
+    "Nome": "CASA DI COMUNITÀ CARLO ALBERTO BELLANO",
     "Città": "BELLANO",
     "Provincia": "LC",
+    "Indirizzo": "VIA CARLO ALBERTO, 25 - BELLANO (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15316,41 +15547,44 @@
     "Longitudine": 9.3058267
   },
   {
-    "Nome": "CASA DI COMUNITA' MANDIC MERATE",
-    "Indirizzo": "VIA MANDIC, 1",
+    "Nome": "CASA DI COMUNITÀ MANDIC MERATE",
     "Città": "MERATE",
     "Provincia": "LC",
+    "Indirizzo": "LARGO BEATO LEOPOLDO MANDIC, 1 - MERATE (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6981139,
-    "Longitudine": 9.4172979
+    "Latitudine": 45.6981085,
+    "Longitudine": 9.4272938
   },
   {
-    "Nome": "CASA DI COMUNITA' DELL REPUBBLICA PADERNO DUGNANO",
-    "Indirizzo": "VIALE DELLA REPUBBLICA, 13",
+    "Nome": "CASA DI COMUNITÀ DELL REPUBBLICA PADERNO DUGNANO",
     "Città": "PADERNO DUGNANO",
     "Provincia": "MI",
+    "Indirizzo": "VIALE DELLA REPUBBLICA, 13 - PADERNO DUGNANO (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5709123,
-    "Longitudine": 9.1668508
+    "Latitudine": 45.5709803,
+    "Longitudine": 9.1668911
   },
   {
-    "Nome": "CASA DI COMUNITA' BARONI",
-    "Indirizzo": "VIA BARONI, 48",
+    "Nome": "CASA DI COMUNITÀ BARONI",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA BARONI, 48 - MILANO (MI)",
     "Ente": "ASST SANTI PAOLO E CARLO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15358,13 +15592,14 @@
     "Longitudine": 9.1716105
   },
   {
-    "Nome": "CASA DI COMUNITA' SASSI MILANO",
-    "Indirizzo": "VIA SASSI, 4",
+    "Nome": "CASA DI COMUNITÀ SASSI MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA SASSI, 4 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15372,55 +15607,59 @@
     "Longitudine": 9.227971
   },
   {
-    "Nome": "CASA DI COMUNITA' DEI CORSICO",
-    "Indirizzo": "VIA DEI LAVORATORI, 42",
+    "Nome": "CASA DI COMUNITÀ DEI CORSICO",
     "Città": "CORSICO",
     "Provincia": "MI",
+    "Indirizzo": "VIA DEI LAVORATORI, 42 - CORSICO (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.4325663,
-    "Longitudine": 9.1167659
+    "Latitudine": 45.4314902,
+    "Longitudine": 9.1168982
   },
   {
-    "Nome": "CASA DI COMUNITA' STROMBOLI MILANO",
-    "Indirizzo": "VIA STROMBOLI, 19",
+    "Nome": "CASA DI COMUNITÀ STROMBOLI MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA STROMBOLI, 19 - MILANO (MI)",
     "Ente": "ASST SANTI PAOLO E CARLO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.4588712,
-    "Longitudine": 9.1584981
+    "Latitudine": 45.4585764,
+    "Longitudine": 9.1575835
   },
   {
-    "Nome": "CASA DI COMUNITA' LUIGI CADORNA SUZZARA",
-    "Indirizzo": "VIA LUIGI CADORNA, 2",
+    "Nome": "CASA DI COMUNITÀ LUIGI CADORNA SUZZARA",
     "Città": "SUZZARA",
     "Provincia": "MN",
+    "Indirizzo": "VIA LUIGI CADORNA, 2 - SUZZARA (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 44.991873,
-    "Longitudine": 10.74309
+    "Latitudine": 44.9888422,
+    "Longitudine": 10.74195
   },
   {
-    "Nome": "CASA DI COMUNITA' VIARANA BESANA IN BRIANZA",
-    "Indirizzo": "VIA VIARANA, 38",
+    "Nome": "CASA DI COMUNITÀ VIARANA BESANA IN BRIANZA",
     "Città": "BESANA IN BRIANZA",
     "Provincia": "MB",
+    "Indirizzo": "VIA VIARANA, 38 - BESANA IN BRIANZA (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15428,13 +15667,14 @@
     "Longitudine": 9.2856086
   },
   {
-    "Nome": "CASA DI COMUNITA' RICORDI - DORIA MILANO",
-    "Indirizzo": "VIA DORIA, 52",
+    "Nome": "CASA DI COMUNITÀ RICORDI - DORIA MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA DORIA, 52 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15442,13 +15682,14 @@
     "Longitudine": 9.1761895
   },
   {
-    "Nome": "CASA DI COMUNITA' SCEREGALLI INTROBIO",
-    "Indirizzo": "VIA SCEREGALLI, 8/A",
+    "Nome": "CASA DI COMUNITÀ SCEREGALLI INTROBIO",
     "Città": "INTROBIO",
     "Provincia": "LC",
+    "Indirizzo": "VIA SCEREGALLI, 8/A - INTROBIO (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15456,27 +15697,29 @@
     "Longitudine": 9.4464227
   },
   {
-    "Nome": "CASA DI COMUNITA' SACCHI CASTIGLIONE DELLE STIVIERE",
-    "Indirizzo": "VIALE SACCHI, 10/12",
+    "Nome": "CASA DI COMUNITÀ SACCHI CASTIGLIONE DELLE STIVIERE",
     "Città": "CASTIGLIONE DELLE STIVIERE",
     "Provincia": "MN",
+    "Indirizzo": "VIA SACCHI, 10/12 - CASTIGLIONE DELLE STIVIERE (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.3896766,
-    "Longitudine": 10.4888745
+    "Latitudine": 45.3861526,
+    "Longitudine": 10.4940706
   },
   {
-    "Nome": "CASA DI COMUNITA' NISSOLINA BRENO",
-    "Indirizzo": "VIA NISSOLINA, 2",
+    "Nome": "CASA DI COMUNITÀ NISSOLINA BRENO",
     "Città": "BRENO",
     "Provincia": "BS",
+    "Indirizzo": "VIA NISSOLINA, 2 - BRENO (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15484,27 +15727,29 @@
     "Longitudine": 10.3055878
   },
   {
-    "Nome": "CASA DI COMUNITA' LECCO AGRATE BRIANZA",
-    "Indirizzo": "VIA LECCO, 11",
+    "Nome": "CASA DI COMUNITÀ LECCO AGRATE BRIANZA",
     "Città": "AGRATE BRIANZA",
     "Provincia": "MB",
+    "Indirizzo": "VIA LECCO, 11 - AGRATE BRIANZA (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5735554,
-    "Longitudine": 9.3545965
+    "Latitudine": 45.5735845,
+    "Longitudine": 9.3543178
   },
   {
-    "Nome": "CASA DI COMUNITA' MONTE GRAPPA - GARIBALDI RIVOLTA D'ADDA",
-    "Indirizzo": "VIA GARIBALDI, 24",
+    "Nome": "CASA DI COMUNITÀ MONTE GRAPPA - GARIBALDI RIVOLTA D'ADDA",
     "Città": "RIVOLTA D'ADDA",
     "Provincia": "CR",
+    "Indirizzo": "VIA GARIBALDI, 24 - RIVOLTA D'ADDA (CR)",
     "Ente": "ASST DI CREMA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15512,13 +15757,14 @@
     "Longitudine": 9.5147838
   },
   {
-    "Nome": "CASA DI COMUNITA' F. CORTESE SANT'ANGELO LODIGIANO",
-    "Indirizzo": "STRADA PROVINCIALE, 19",
+    "Nome": "CASA DI COMUNITÀ F. CORTESE SANT'ANGELO LODIGIANO",
     "Città": "SANT'ANGELO LODIGIANO",
     "Provincia": "LO",
+    "Indirizzo": "STRADA PROVINCIALE, 19 - SANT'ANGELO LODIGIANO (LO)",
     "Ente": "ASST DI LODI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15526,27 +15772,29 @@
     "Longitudine": 9.407352
   },
   {
-    "Nome": "CASA DI COMUNITA' BONOMELLI LOVERE",
-    "Indirizzo": "PIAZZALE BONOMELLI, 6",
+    "Nome": "CASA DI COMUNITÀ BONOMELLI LOVERE",
     "Città": "LOVERE",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZALE BONOMELLI, 6 - LOVERE (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.8179771,
-    "Longitudine": 10.0733057
+    "Latitudine": 45.8182748,
+    "Longitudine": 10.0735104
   },
   {
-    "Nome": "CASA DI COMUNITA' SANT'ANNA ALBINO",
-    "Indirizzo": "VIA SANT'ANNA, 5",
+    "Nome": "CASA DI COMUNITÀ SANT'ANNA ALBINO",
     "Città": "ALBINO",
     "Provincia": "BG",
+    "Indirizzo": "VIA SANT'ANNA, 5 - ALBINO (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15554,41 +15802,44 @@
     "Longitudine": 9.7956873
   },
   {
-    "Nome": "CASA DI COMUNITA' LUCA DELLA ROBBIA MONZA",
-    "Indirizzo": "VIA LUCA DELLA ROBBIA",
+    "Nome": "CASA DI COMUNITÀ LUCA DELLA ROBBIA MONZA",
     "Città": "MONZA",
     "Provincia": "MB",
+    "Indirizzo": "VIA POLIZIANO, 4 - MONZA (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5795733,
-    "Longitudine": 9.301688
+    "Latitudine": 45.5798481,
+    "Longitudine": 9.303517
   },
   {
-    "Nome": "CASA DI COMUNITA' KENNEDY BRUGHERIO",
-    "Indirizzo": "VIA KENNEDY, 28",
+    "Nome": "CASA DI COMUNITÀ KENNEDY BRUGHERIO",
     "Città": "BRUGHERIO",
     "Provincia": "MB",
+    "Indirizzo": "VIA KENNEDY, 28 - BRUGHERIO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5460746,
-    "Longitudine": 9.2991117
+    "Latitudine": 45.5478208,
+    "Longitudine": 9.2985869
   },
   {
-    "Nome": "CASA DI COMUNITA' PICENO MILANO",
-    "Indirizzo": "VIALE PICENO, 60",
+    "Nome": "CASA DI COMUNITÀ PICENO MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIALE PICENO, 60 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15596,27 +15847,29 @@
     "Longitudine": 9.2183341
   },
   {
-    "Nome": "CASA DI COMUNITA' DONATORI DEL SANGUE LENO",
-    "Indirizzo": "PIAZZA DONATORI DEL SANGUE, 1",
+    "Nome": "CASA DI COMUNITÀ DONATORI DEL SANGUE LENO",
     "Città": "LENO",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1 - LENO (BS)",
     "Ente": "ASST DEL GARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.3670119,
-    "Longitudine": 10.2184518
+    "Latitudine": 45.3654434,
+    "Longitudine": 10.2148178
   },
   {
-    "Nome": "CASA DI COMUNITA' GRIMANI VEROLANUOVA",
-    "Indirizzo": "VIA GRIMANI, 16-20",
+    "Nome": "CASA DI COMUNITÀ GRIMANI VEROLANUOVA",
     "Città": "VEROLANUOVA",
     "Provincia": "BS",
+    "Indirizzo": "VIA GRIMANI, 16/20 - VEROLANUOVA (BS)",
     "Ente": "ASST DEL GARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15624,13 +15877,14 @@
     "Longitudine": 10.0745735
   },
   {
-    "Nome": "CASA DI COMUNITA' ZARA MILANO",
-    "Indirizzo": "V.LE ZARA, 81",
+    "Nome": "CASA DI COMUNITÀ ZARA MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIALE ZARA, 81 - MILANO (MI)",
     "Ente": "ASST GOM NIGUARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15638,27 +15892,29 @@
     "Longitudine": 9.1940387
   },
   {
-    "Nome": "CASA DI COMUNITA' MONTEROSA VARESE",
-    "Indirizzo": "VIALE MONTEROSA, 28",
+    "Nome": "CASA DI COMUNITÀ MONTEROSA VARESE",
     "Città": "VARESE",
     "Provincia": "VA",
+    "Indirizzo": "VIALE MONTE ROSA, 28 - VARESE (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.817549,
-    "Longitudine": 8.8263532
+    "Latitudine": 45.8894754,
+    "Longitudine": 8.7818969
   },
   {
-    "Nome": "CASA DI COMUNITA' CAMPI MAGGIORI ARCISATE",
-    "Indirizzo": "VIA CAMPI MAGGIORI, 23",
+    "Nome": "CASA DI COMUNITÀ CAMPI MAGGIORI ARCISATE",
     "Città": "ARCISATE",
     "Provincia": "VA",
+    "Indirizzo": "VIA CAMPI MAGGIORI, 23 - ARCISATE (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15666,13 +15922,14 @@
     "Longitudine": 8.8587364
   },
   {
-    "Nome": "CASA DI COMUNITA' LIBERTA' SETTIMO MILANESE",
-    "Indirizzo": "VIA DELLA LIBERTA', 33",
+    "Nome": "CASA DI COMUNITÀ LIBERTÀ SETTIMO MILANESE",
     "Città": "SETTIMO MILANESE",
     "Provincia": "MI",
+    "Indirizzo": "VIA DELLA LIBERTA', 33 - SETTIMO MILANESE (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15680,13 +15937,14 @@
     "Longitudine": 9.0530163
   },
   {
-    "Nome": "CASA DI COMUNITA' LEONARDO DA VINCI GALLARATE",
-    "Indirizzo": "CORSO LEONARDO DA VINCI, 1",
+    "Nome": "CASA DI COMUNITÀ LEONARDO DA VINCI GALLARATE",
     "Città": "GALLARATE",
     "Provincia": "VA",
+    "Indirizzo": "CORSO LEONARDO DA VINCI, 1 - GALLARATE (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15694,13 +15952,14 @@
     "Longitudine": 8.7900808
   },
   {
-    "Nome": "CASA DI COMUNITA' CANDIANI LEGNANO",
-    "Indirizzo": "VIA CANDIANI, 2",
+    "Nome": "CASA DI COMUNITÀ CANDIANI LEGNANO",
     "Città": "LEGNANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA CANDIANI, 2 - LEGNANO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15708,13 +15967,14 @@
     "Longitudine": 8.9314382
   },
   {
-    "Nome": "CASA DI COMUNITA' VIA XI FEBBRAIO",
-    "Indirizzo": "VIA XI FEBBRAIO",
+    "Nome": "CASA DI COMUNITÀ VIA XI FEBBRAIO",
     "Città": "PARABIAGO",
     "Provincia": "MI",
+    "Indirizzo": "VIA XI FEBBRAIO, 31 - PARABIAGO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15722,27 +15982,29 @@
     "Longitudine": 8.9416239
   },
   {
-    "Nome": "CASA DI COMUNITA' DON MINZONI CASTELLANZA",
-    "Indirizzo": "VIA DON MINZONI, 25",
+    "Nome": "CASA DI COMUNITÀ DON MINZONI CASTELLANZA",
     "Città": "CASTELLANZA",
     "Provincia": "VA",
+    "Indirizzo": "VIALE DON G. MINZONI, 25 - CASTELLANZA (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6115567,
-    "Longitudine": 8.8996853
+    "Latitudine": 45.6099961,
+    "Longitudine": 8.8867093
   },
   {
-    "Nome": "CASA DI COMUNITA' BAINSIZZA ORZINUOVI",
-    "Indirizzo": "VIALE BAINSIZZA",
+    "Nome": "CASA DI COMUNITÀ BAINSIZZA ORZINUOVI",
     "Città": "ORZINUOVI",
     "Provincia": "BS",
+    "Indirizzo": "VIALE BAINSIZZA, 22 - ORZINUOVI (BS)",
     "Ente": "ASST DELLA FRANCIACORTA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15750,41 +16012,44 @@
     "Longitudine": 9.9267897
   },
   {
-    "Nome": "CASA DI COMUNITA' IV NOVEMBRE PALAZZOLO SULL'OGLIO",
-    "Indirizzo": "VIA IV NOVEMBRE, 5",
+    "Nome": "CASA DI COMUNITÀ IV NOVEMBRE PALAZZOLO SULL'OGLIO",
     "Città": "PALAZZOLO SULL'OGLIO",
     "Provincia": "BS",
+    "Indirizzo": "VIALE IV NOVEMBRE, 5 - PALAZZOLO SULL'OGLIO (BS)",
     "Ente": "ASST DELLA FRANCIACORTA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5990687,
-    "Longitudine": 9.8849665
+    "Latitudine": 45.5995716,
+    "Longitudine": 9.8752861
   },
   {
-    "Nome": "CASA DI COMUNITA' BELLINI GORGONZOLA",
-    "Indirizzo": "VIA BELLINI, 5",
+    "Nome": "CASA DI COMUNITÀ BELLINI GORGONZOLA",
     "Città": "GORGONZOLA",
     "Provincia": "MI",
+    "Indirizzo": "VIA BELLINI, 5 - GORGONZOLA (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.53464,
-    "Longitudine": 9.4134439
+    "Latitudine": 45.5335678,
+    "Longitudine": 9.4141114
   },
   {
-    "Nome": "CASA DI COMUNITA' PAPA GIOVANNI XXIII GARDONE VAL TROMPIA",
-    "Indirizzo": "VIA PAPA GIOVANNI XXIII, 4",
+    "Nome": "CASA DI COMUNITÀ PAPA GIOVANNI XXIII GARDONE VAL TROMPIA",
     "Città": "GARDONE VAL TROMPIA",
     "Provincia": "BS",
+    "Indirizzo": "VIA PAPA GIOVANNI XXIII, 4 - GARDONE VAL TROMPIA (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15792,13 +16057,14 @@
     "Longitudine": 10.1834946
   },
   {
-    "Nome": "CASA DI COMUNITA' FORLANINI LUINO",
-    "Indirizzo": "VIA FORLANINI, 6",
+    "Nome": "CASA DI COMUNITÀ FORLANINI LUINO",
     "Città": "LUINO",
     "Provincia": "VA",
+    "Indirizzo": "VIA FORLANINI, 6 - LUINO (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15806,13 +16072,14 @@
     "Longitudine": 8.7457533
   },
   {
-    "Nome": "CASA DI COMUNITA' DE GASPERI GAVIRATE",
-    "Indirizzo": "PIAZZA DE GASPERI, 1",
+    "Nome": "CASA DI COMUNITÀ DE GASPERI GAVIRATE",
     "Città": "GAVIRATE",
     "Provincia": "VA",
+    "Indirizzo": "PIAZZA DE GASPERI, 1 - GAVIRATE (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15820,13 +16087,14 @@
     "Longitudine": 8.7123578
   },
   {
-    "Nome": "CASA DI COMUNITA' BRAMBILLA LISCATE",
-    "Indirizzo": "VIA BRAMBILLA 4/6",
+    "Nome": "CASA DI COMUNITÀ BRAMBILLA LISCATE",
     "Città": "LISCATE",
     "Provincia": "MI",
+    "Indirizzo": "VIA BRAMBILLA, 4/6 - LISCATE (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15834,13 +16102,14 @@
     "Longitudine": 9.4099878
   },
   {
-    "Nome": "CASA DI COMUNITA' BORDINI ANGERA",
-    "Indirizzo": "VIA BORDINI, 9",
+    "Nome": "CASA DI COMUNITÀ BORDINI ANGERA",
     "Città": "ANGERA",
     "Provincia": "VA",
+    "Indirizzo": "VIA BORDINI, 9 - ANGERA (VA)",
     "Ente": "ASST DEI SETTE LAGHI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15848,13 +16117,14 @@
     "Longitudine": 8.579008
   },
   {
-    "Nome": "CASA DI COMUNITA' CIRCONVALLAZIONE LAINATE",
-    "Indirizzo": "VIA VALSESIA, 22/V",
+    "Nome": "CASA DI COMUNITÀ CIRCONVALLAZIONE LAINATE",
     "Città": "LAINATE",
     "Provincia": "MI",
+    "Indirizzo": "VIA VALSESIA, 22/V - LAINATE (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15862,27 +16132,29 @@
     "Longitudine": 9.022425
   },
   {
-    "Nome": "CASA DI COMUNITA' GRAMSCI FAGNANO OLONA",
-    "Indirizzo": "PIAZZA GRAMSCI, 1",
+    "Nome": "CASA DI COMUNITÀ GRAMSCI FAGNANO OLONA",
     "Città": "FAGNANO OLONA",
     "Provincia": "VA",
+    "Indirizzo": "PIAZZA ANTONIO GRAMSCI, 1 - FAGNANO OLONA (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6689478,
-    "Longitudine": 8.8727714
+    "Latitudine": 45.6705114,
+    "Longitudine": 8.8683928
   },
   {
-    "Nome": "CASA DI COMUNITA' SETTEMBRINI RHO",
-    "Indirizzo": "VIA SETTEMBRINI, 1",
+    "Nome": "CASA DI COMUNITÀ SETTEMBRINI RHO",
     "Città": "RHO",
     "Provincia": "MI",
+    "Indirizzo": "VIA SETTEMBRINI, 1 - RHO (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15890,13 +16162,14 @@
     "Longitudine": 9.0452167
   },
   {
-    "Nome": "CASA DI COMUNITA' XXIV MAGGIO BUSTO GAROLFO",
-    "Indirizzo": "VIA XXIV MAGGIO, 19",
+    "Nome": "CASA DI COMUNITÀ XXIV MAGGIO BUSTO GAROLFO",
     "Città": "BUSTO GAROLFO",
     "Provincia": "MI",
+    "Indirizzo": "VIA XXIV MAGGIO, 19 - BUSTO GAROLFO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15904,13 +16177,14 @@
     "Longitudine": 8.8928532
   },
   {
-    "Nome": "CASA DI COMUNITA' GIUSSANI NOVA MILANESE",
-    "Indirizzo": "VIA GIUSSANI, 11",
+    "Nome": "CASA DI COMUNITÀ GIUSSANI NOVA MILANESE",
     "Città": "NOVA MILANESE",
     "Provincia": "MB",
+    "Indirizzo": "VIA GIUSSANI, 11 - NOVA MILANESE (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15918,13 +16192,14 @@
     "Longitudine": 9.2012939
   },
   {
-    "Nome": "CASA DI COMUNITA' DON POZZONI ZELO BUON PERSICO",
-    "Indirizzo": "PIAZZA DON POZZONI, 2",
+    "Nome": "CASA DI COMUNITÀ DON POZZONI ZELO BUON PERSICO",
     "Città": "ZELO BUON PERSICO",
     "Provincia": "LO",
+    "Indirizzo": "PIAZZA DON POZZONI, 2 - ZELO BUON PERSICO (LO)",
     "Ente": "ASST DI LODI",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15932,55 +16207,59 @@
     "Longitudine": 9.4352969
   },
   {
-    "Nome": "CASA DI COMUNITA' CIRCONVALLAZIONE VARZI",
-    "Indirizzo": "VIA CIRCONVALLAZIONE, 3",
+    "Nome": "CASA DI COMUNITÀ CIRCONVALLAZIONE VARZI",
     "Città": "VARZI",
     "Provincia": "PV",
+    "Indirizzo": "VIA CIRCONVALLAZIONE, 3 - VARZI (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 44.8222237,
-    "Longitudine": 9.1948376
+    "Latitudine": 44.8218056,
+    "Longitudine": 9.1981902
   },
   {
-    "Nome": "CASA DI COMUNITA' ANDREETTI CENTRO VALLE INTELVI",
-    "Indirizzo": "VIA ANDREETTI, 12",
+    "Nome": "CASA DI COMUNITÀ ANDREETTI CENTRO VALLE INTELVI",
     "Città": "CENTRO VALLE INTELVI",
     "Provincia": "CO",
+    "Indirizzo": "VIA ANDREETTI, 12 - CENTRO VALLE INTELVI (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.9667593,
-    "Longitudine": 9.0795515
+    "Latitudine": 45.9670471,
+    "Longitudine": 9.077364
   },
   {
-    "Nome": "CASA DI COMUNITA' MONTEBELLO CASTEGGIO",
-    "Indirizzo": "VIALE MONTEBELLO D.BATTAGLIA",
+    "Nome": "CASA DI COMUNITÀ MONTEBELLO CASTEGGIO",
     "Città": "CASTEGGIO",
     "Provincia": "PV",
+    "Indirizzo": "VIALE MONTEBELLO DELLA BATTAGLIA - CASTEGGIO (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.0143406,
-    "Longitudine": 9.123332
+    "Latitudine": 45.0101052,
+    "Longitudine": 9.1188227
   },
   {
-    "Nome": "CASA DI COMUNITA' ROBBIANI SORESINA",
-    "Indirizzo": "VIA ROBBIANI, 6",
+    "Nome": "CASA DI COMUNITÀ ROBBIANI SORESINA",
     "Città": "SORESINA",
     "Provincia": "CR",
+    "Indirizzo": "VIA ROBBIANI, 6 - SORESINA (CR)",
     "Ente": "ASST DI CREMONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -15988,27 +16267,29 @@
     "Longitudine": 9.8558773
   },
   {
-    "Nome": "CASA DI COMUNITA' BARBOLINI DARFO BOARIO TERME",
-    "Indirizzo": "VIA BARBOLINI, 1",
+    "Nome": "CASA DI COMUNITÀ BARBOLINI DARFO BOARIO TERME",
     "Città": "DARFO BOARIO TERME",
     "Provincia": "BS",
+    "Indirizzo": "VIA BARBOLINI ARMANDO, 1 - DARFO BOARIO TERME (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.8882337,
-    "Longitudine": 10.1918892
+    "Latitudine": 45.875797,
+    "Longitudine": 10.1789621
   },
   {
-    "Nome": "CASA DI COMUNITA' FACCANONI SARNICO",
-    "Indirizzo": "VIA FACCANONI, 6",
+    "Nome": "CASA DI COMUNITÀ FACCANONI SARNICO",
     "Città": "SARNICO",
     "Provincia": "BG",
+    "Indirizzo": "VIA FACCANONI, 6 - SARNICO (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16016,13 +16297,14 @@
     "Longitudine": 9.9574861
   },
   {
-    "Nome": "CASA DI COMUNITA' MANZONI GAZZANIGA",
-    "Indirizzo": "VIA MANZONI, 130",
+    "Nome": "CASA DI COMUNITÀ MANZONI GAZZANIGA",
     "Città": "GAZZANIGA",
     "Provincia": "BG",
+    "Indirizzo": "VIA MANZONI, 130 - GAZZANIGA (BG)",
     "Ente": "ASST DI BERGAMO EST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16030,13 +16312,14 @@
     "Longitudine": 9.8295956
   },
   {
-    "Nome": "CASA DI COMUNITA' VITTORIO BACHELET OGGIONO",
-    "Indirizzo": "VIA VITTORIO BACHELET, 8",
+    "Nome": "CASA DI COMUNITÀ VITTORIO BACHELET OGGIONO",
     "Città": "OGGIONO",
     "Provincia": "LC",
+    "Indirizzo": "VIA VITTORIO BACHELET, 8 - OGGIONO (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16044,13 +16327,14 @@
     "Longitudine": 9.3341348
   },
   {
-    "Nome": "CASA DI COMUNITA' MARCONI GAGGIANO",
-    "Indirizzo": "VIA MARCONI, 10",
+    "Nome": "CASA DI COMUNITÀ MARCONI GAGGIANO",
     "Città": "GAGGIANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA MARCONI, 10 - GAGGIANO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16058,13 +16342,14 @@
     "Longitudine": 9.0323918
   },
   {
-    "Nome": "CASA DI COMUNITA' ISONZO VITTUONE",
-    "Indirizzo": "VIA ISONZO, 1",
+    "Nome": "CASA DI COMUNITÀ ISONZO VITTUONE",
     "Città": "VITTUONE",
     "Provincia": "MI",
+    "Indirizzo": "VIA ISONZO, 1 - VITTUONE (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16072,13 +16357,14 @@
     "Longitudine": 8.9560311
   },
   {
-    "Nome": "CASA DI COMUNITA' MORONI CASTANO PRIMO",
-    "Indirizzo": "VIA MORONI, 1",
+    "Nome": "CASA DI COMUNITÀ MORONI CASTANO PRIMO",
     "Città": "CASTANO PRIMO",
     "Provincia": "MI",
+    "Indirizzo": "VIA MORONI, 1 - CASTANO PRIMO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16086,13 +16372,14 @@
     "Longitudine": 8.7771508
   },
   {
-    "Nome": "CASA DI COMUNITA' LODOVICI ABBIATEGRASSO",
-    "Indirizzo": "PIAZZA MUSSI, 1",
+    "Nome": "CASA DI COMUNITÀ LODOVICI ABBIATEGRASSO",
     "Città": "ABBIATEGRASSO",
     "Provincia": "MI",
+    "Indirizzo": "PIAZZA MUSSI, 1 - ABBIATEGRASSO (MI)",
     "Ente": "ASST OVEST MILANESE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16100,13 +16387,14 @@
     "Longitudine": 8.9143774
   },
   {
-    "Nome": "CASA DI COMUNITA' MARCONI BRESCIA",
-    "Indirizzo": "VIA MARCONI, 26",
+    "Nome": "CASA DI COMUNITÀ MARCONI BRESCIA",
     "Città": "BRESCIA",
     "Provincia": "BS",
+    "Indirizzo": "VIA MARCONI, 26 - BRESCIA (BS)",
     "Ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16114,13 +16402,14 @@
     "Longitudine": 10.492082
   },
   {
-    "Nome": "CASA DI COMUNITA' TRE PIEVI DONGO",
-    "Indirizzo": "VIA GENTILE SN",
+    "Nome": "CASA DI COMUNITÀ TRE PIEVI DONGO",
     "Città": "DONGO",
     "Provincia": "CO",
+    "Indirizzo": "VIA GENTILE - DONGO (CO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16128,13 +16417,14 @@
     "Longitudine": 9.2790891
   },
   {
-    "Nome": "CASA DI COMUNITA' MILANO GIUSSANO",
-    "Indirizzo": "VIA MILANO, 65",
+    "Nome": "CASA DI COMUNITÀ MILANO GIUSSANO",
     "Città": "GIUSSANO",
     "Provincia": "MB",
+    "Indirizzo": "VIA MILANO, 65 - GIUSSANO (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16142,13 +16432,14 @@
     "Longitudine": 9.2079267
   },
   {
-    "Nome": "CASA DI COMUNITA' DALL'ORTO CASORATE PRIMO",
-    "Indirizzo": "VIA DALL'ORTO, 99",
+    "Nome": "CASA DI COMUNITÀ DALL'ORTO CASORATE PRIMO",
     "Città": "CASORATE PRIMO",
     "Provincia": "PV",
+    "Indirizzo": "VIA DALL'ORTO, 99 - CASORATE PRIMO (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16156,27 +16447,29 @@
     "Longitudine": 9.0169085
   },
   {
-    "Nome": "CASA DI COMUNITA' CAVOUR SOMMA LOMBARDO",
-    "Indirizzo": "VIA CAVOUR ANGOLO VIA FUSER, 2",
+    "Nome": "CASA DI COMUNITÀ CAVOUR SOMMA LOMBARDO",
     "Città": "SOMMA LOMBARDO",
     "Provincia": "VA",
+    "Indirizzo": "VIA CAVOUR, 2 - SOMMA LOMBARDO (VA)",
     "Ente": "ASST DELLA VALLE OLONA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6836207,
-    "Longitudine": 8.7070874
+    "Latitudine": 45.6834608,
+    "Longitudine": 8.713059
   },
   {
-    "Nome": "CASA DI COMUNITA' LIVIGNO FREITA",
-    "Indirizzo": "VIA FREITA, 1521/B",
+    "Nome": "CASA DI COMUNITÀ LIVIGNO FREITA",
     "Città": "LIVIGNO",
     "Provincia": "SO",
+    "Indirizzo": "VIA FREITA, 1521/B - LIVIGNO (SO)",
     "Ente": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16184,27 +16477,29 @@
     "Longitudine": 10.1357484
   },
   {
-    "Nome": "CASA DI COMUNITA' MONTEGRAPPA VIGEVANO",
-    "Indirizzo": "VIALE MONTEGRAPPA, 5",
+    "Nome": "CASA DI COMUNITÀ MONTEGRAPPA VIGEVANO",
     "Città": "VIGEVANO",
     "Provincia": "PV",
+    "Indirizzo": "VIALE MONTEGRAPPA, 5 - VIGEVANO (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.3170942,
-    "Longitudine": 8.858603
+    "Latitudine": 45.3219261,
+    "Longitudine": 8.8450556
   },
   {
-    "Nome": "CASA DI COMUNITA' DA VINCI SENAGO",
-    "Indirizzo": "VIA LEONARDO DA VINCI, 59",
+    "Nome": "CASA DI COMUNITÀ DA VINCI SENAGO",
     "Città": "SENAGO",
     "Provincia": "MI",
+    "Indirizzo": "VIA LEONARDO DA VINCI, 59 - SENAGO (MI)",
     "Ente": "ASST RHODENSE",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16212,13 +16507,14 @@
     "Longitudine": 9.1338661
   },
   {
-    "Nome": "CASA DI COMUNITA' BORGO GARLASCO",
-    "Indirizzo": "VIA BORGO SAN SIRO, 2",
+    "Nome": "CASA DI COMUNITÀ BORGO GARLASCO",
     "Città": "GARLASCO",
     "Provincia": "PV",
+    "Indirizzo": "VIA BORGO SAN SIRO, 2 - GARLASCO (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16226,27 +16522,29 @@
     "Longitudine": 8.9164202
   },
   {
-    "Nome": "CASA DI COMUNITA' STURLA VOGHERA",
-    "Indirizzo": "VIA STURLA",
+    "Nome": "CASA DI COMUNITÀ STURLA VOGHERA",
     "Città": "VOGHERA",
     "Provincia": "PV",
+    "Indirizzo": "VIALE REPUBBLICA, 88 - VOGHERA (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 44.9811147,
-    "Longitudine": 9.0107883
+    "Latitudine": 44.9864449,
+    "Longitudine": 9.0084932
   },
   {
-    "Nome": "CASA DI COMUNITA' DEI MILLE 23 MEDE",
-    "Indirizzo": "VIALE DEI MILLE, 23",
+    "Nome": "CASA DI COMUNITÀ DEI MILLE 23 MEDE",
     "Città": "MEDE",
     "Provincia": "PV",
+    "Indirizzo": "VIALE DEI MILLE, 23 - MEDE (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16254,13 +16552,14 @@
     "Longitudine": 8.7315943
   },
   {
-    "Nome": "CASA DI COMUNITA' GIARDINI GARIBALDI ISEO",
-    "Indirizzo": "VIA GIARDINI GARIBALDI, 2",
+    "Nome": "CASA DI COMUNITÀ GIARDINI GARIBALDI ISEO",
     "Città": "ISEO",
     "Provincia": "BS",
+    "Indirizzo": "VIA GIARDINI GARIBALDI, 2 - ISEO (BS)",
     "Ente": "ASST DELLA FRANCIACORTA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16268,13 +16567,14 @@
     "Longitudine": 10.0511044
   },
   {
-    "Nome": "CASA DI COMUNITA' EUROPA MARONE",
-    "Indirizzo": "VIA EUROPA, 10",
+    "Nome": "CASA DI COMUNITÀ EUROPA MARONE",
     "Città": "MARONE",
     "Provincia": "BS",
+    "Indirizzo": "VIA EUROPA, 10 - MARONE (BS)",
     "Ente": "ASST DELLA FRANCIACORTA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16282,13 +16582,14 @@
     "Longitudine": 10.0950179
   },
   {
-    "Nome": "CASA DI COMUNITA' MANDELLO",
-    "Indirizzo": "VIA DEGLI ALPINI, 1",
+    "Nome": "CASA DI COMUNITÀ MANDELLO",
     "Città": "MANDELLO DEL LARIO",
     "Provincia": "LC",
+    "Indirizzo": "VIA DEGLI ALPINI, 1 - MANDELLO DEL LARIO (LC)",
     "Ente": "ASST DI LECCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16296,13 +16597,14 @@
     "Longitudine": 9.3227726
   },
   {
-    "Nome": "CASA DI COMUNITA' MONTE LIMBIATE",
-    "Indirizzo": "VIA MONTE GRAPPA, 19",
+    "Nome": "CASA DI COMUNITÀ MONTE LIMBIATE",
     "Città": "LIMBIATE",
     "Provincia": "MB",
+    "Indirizzo": "VIA MONTE GRAPPA, 19 - LIMBIATE (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16310,41 +16612,44 @@
     "Longitudine": 9.1243138
   },
   {
-    "Nome": "CASA DI COMUNITA' PAVESE MORTARA",
-    "Indirizzo": "STRADA PAVESE, 1013",
+    "Nome": "CASA DI COMUNITÀ PAVESE MORTARA",
     "Città": "MORTARA",
     "Provincia": "PV",
+    "Indirizzo": "STRADA PAVESE, 1013 - MORTARA (PV)",
     "Ente": "ASST DI PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.2523737,
-    "Longitudine": 8.7467931
+    "Latitudine": 45.2536092,
+    "Longitudine": 8.7430551
   },
   {
-    "Nome": "CASA DI COMUNITA' CALUSCO D'ADDA",
-    "Indirizzo": "VIA LOCATELLI, 265",
+    "Nome": "CASA DI COMUNITÀ CALUSCO D'ADDA",
     "Città": "CALUSCO D'ADDA",
     "Provincia": "BG",
+    "Indirizzo": "VIA LOCATELLI, 265 - CALUSCO D'ADDA (BG)",
     "Ente": "ASST DI BERGAMO OVEST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6915555,
-    "Longitudine": 9.4661902
+    "Latitudine": 45.6915632,
+    "Longitudine": 9.4661897
   },
   {
-    "Nome": "CASA DI COMUNITA' ZANICA",
-    "Indirizzo": "VIA SERIO, 1/A",
+    "Nome": "CASA DI COMUNITÀ ZANICA",
     "Città": "ZANICA",
     "Provincia": "BG",
+    "Indirizzo": "VIA SERIO, 1/A - ZANICA (BG)",
     "Ente": "ASST DI BERGAMO OVEST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16352,13 +16657,14 @@
     "Longitudine": 9.6878549
   },
   {
-    "Nome": "CASA DI COMUNITA' ACCURSIO MILANO",
-    "Indirizzo": "PIAZZALE ACCURSIO, 7",
+    "Nome": "CASA DI COMUNITÀ ACCURSIO MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "PIAZZALE ACCURSIO, 7 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16366,27 +16672,29 @@
     "Longitudine": 9.1453293
   },
   {
-    "Nome": "CASA DI COMUNITA' ALDINI MILANO",
-    "Indirizzo": "VIA VIA ALDINI 72/4",
+    "Nome": "CASA DI COMUNITÀ ALDINI MILANO",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA ALDINI, 72/4 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5119194,
-    "Longitudine": 9.1324803
+    "Latitudine": 45.5127554,
+    "Longitudine": 9.1359425
   },
   {
-    "Nome": "CASA DI COMUNITA' MILANO CLERICETTI",
-    "Indirizzo": "VIA CLERICETTI, 22",
+    "Nome": "CASA DI COMUNITÀ MILANO CLERICETTI",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA CLERICETTI, 22 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16394,13 +16702,14 @@
     "Longitudine": 9.2356697
   },
   {
-    "Nome": "CASA DI COMUNITA' MILANO QUARENGHI",
-    "Indirizzo": "VIA QUARENGHI, 21",
+    "Nome": "CASA DI COMUNITÀ MILANO QUARENGHI",
     "Città": "MILANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA QUARENGHI, 21 - MILANO (MI)",
     "Ente": "ASST FATEBENEFRATELLI SACCO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16408,13 +16717,14 @@
     "Longitudine": 9.1150341
   },
   {
-    "Nome": "CASA DI COMUNITA' XXV APRILE BOZZOLO",
-    "Indirizzo": "VIA XXV APRILE, 71",
+    "Nome": "CASA DI COMUNITÀ XXV APRILE BOZZOLO",
     "Città": "BOZZOLO",
     "Provincia": "MN",
+    "Indirizzo": "VIA XXV APRILE, 71 - BOZZOLO (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16422,13 +16732,14 @@
     "Longitudine": 10.4780175
   },
   {
-    "Nome": "CASA DI COMUNITA' DE GASPERI VIADANA",
-    "Indirizzo": "LARGO DE GASPERI, 7",
+    "Nome": "CASA DI COMUNITÀ DE GASPERI VIADANA",
     "Città": "VIADANA",
     "Provincia": "MN",
+    "Indirizzo": "LARGO DE GASPERI, 7 - VIADANA (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16436,27 +16747,29 @@
     "Longitudine": 10.5223688
   },
   {
-    "Nome": "CASA DI COMUNITA' ALBERTONI MANTOVA",
-    "Indirizzo": "VIALE ALBERTONI, 1",
+    "Nome": "CASA DI COMUNITÀ ALBERTONI MANTOVA",
     "Città": "MANTOVA",
     "Provincia": "MN",
+    "Indirizzo": "VIALE ALBERTONI, 1 - MANTOVA (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.1474852,
-    "Longitudine": 10.7764241
+    "Latitudine": 45.1482715,
+    "Longitudine": 10.7747135
   },
   {
-    "Nome": "CASA DI COMUNITA' CESARE BATTISTI SERMIDE E FELONICA",
-    "Indirizzo": "VIA CESARE BATTISTI, 29",
+    "Nome": "CASA DI COMUNITÀ CESARE BATTISTI SERMIDE E FELONICA",
     "Città": "SERMIDE E FELONICA",
     "Provincia": "MN",
+    "Indirizzo": "VIA CESARE BATTISTI, 29 - SERMIDE E FELONICA (MN)",
     "Ente": "ASST DI MANTOVA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16464,41 +16777,44 @@
     "Longitudine": 11.2979979
   },
   {
-    "Nome": "CDC - CORTEOLONA-GENZONE",
-    "Indirizzo": "VIALE DEI LONGOBARDI, 3",
+    "Nome": "CASA DI COMUNITÀ CORTEOLONA-GENZONE",
     "Città": "CORTEOLONA E GENZONE",
     "Provincia": "PV",
+    "Indirizzo": "VIA LONGOBARDI, 3 -  CORTEOLONA E GENZONE (PV)",
     "Ente": "ASST PAVIA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.1667772,
-    "Longitudine": 9.3648134
+    "Latitudine": 45.1552449,
+    "Longitudine": 9.3717006
   },
   {
-    "Nome": "CASA DI COMUNITA' DONATORI EDOLO",
-    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1",
+    "Nome": "CASA DI COMUNITÀ DONATORI EDOLO",
     "Città": "EDOLO",
     "Provincia": "BS",
+    "Indirizzo": "PIAZZA DONATORI DI SANGUE, 1 - EDOLO (BS)",
     "Ente": "ASST DELLA VALCAMONICA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 46.1806346,
-    "Longitudine": 10.3332567
+    "Latitudine": 46.1789936,
+    "Longitudine": 10.3291521
   },
   {
-    "Nome": "CASA DI COMUNITA' CAVALLOTTI BELGIOIOSO",
-    "Indirizzo": "VIA CAVALLOTTI, 123",
+    "Nome": "CASA DI COMUNITÀ CAVALLOTTI BELGIOIOSO",
     "Città": "BELGIOIOSO",
     "Provincia": "PV",
+    "Indirizzo": "VIA CAVALLOTTI, 123 - BELGIOIOSO (PV)",
     "Ente": "IRCCS S. MATTEO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16506,13 +16822,14 @@
     "Longitudine": 9.3126653
   },
   {
-    "Nome": "CASA DI COMUNITA' RAMPANONE LOMAZZO",
-    "Indirizzo": "VIA DEL RAMPANONE, 1",
+    "Nome": "CASA DI COMUNITÀ RAMPANONE LOMAZZO",
     "Città": "LOMAZZO",
     "Provincia": "CO",
+    "Indirizzo": "VIA DEL RAMPANONE, 1 - LOMAZZO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16520,41 +16837,44 @@
     "Longitudine": 9.0423685
   },
   {
-    "Nome": "CASA DI COMUNITA' ISONZO MARIANO COMENSE",
-    "Indirizzo": "VIA ISONZO, 42/B",
+    "Nome": "CASA DI COMUNITÀ ISONZO MARIANO COMENSE",
     "Città": "MARIANO COMENSE",
     "Provincia": "CO",
+    "Indirizzo": "VIA ISONZO, 42/B - MARIANO COMENSE (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6936895,
-    "Longitudine": 9.1833313
+    "Latitudine": 45.6897306,
+    "Longitudine": 9.1865423
   },
   {
-    "Nome": "CASA DI COMUNITA' GIUSEPPE VERDI PONTE LAMBRO",
-    "Indirizzo": "VIA GIUSEPPE VERDI, 3",
+    "Nome": "CASA DI COMUNITÀ GIUSEPPE VERDI PONTE LAMBRO",
     "Città": "PONTE LAMBRO",
     "Provincia": "CO",
+    "Indirizzo": "VIA GIUSEPPE VERDI, 3 - PONTE LAMBRO (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.82658,
-    "Longitudine": 9.225441
+    "Latitudine": 45.8179673,
+    "Longitudine": 9.2209813
   },
   {
-    "Nome": "CASA DI COMUNITA' GOLGI PAVIA",
-    "Indirizzo": "PIAZZALE GOLGI, 19",
+    "Nome": "CASA DI COMUNITÀ GOLGI PAVIA",
     "Città": "PAVIA",
     "Provincia": "PV",
+    "Indirizzo": "PIAZZALE GOLGI, 19 - PAVIA (PV)",
     "Ente": "IRCCS S. MATTEO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16562,13 +16882,14 @@
     "Longitudine": 9.1489552
   },
   {
-    "Nome": "CASA DI COMUNITA' DOMEA CANTU'",
-    "Indirizzo": "VIA DOMEA, 4",
+    "Nome": "CASA DI COMUNITÀ DOMEA CANTU'",
     "Città": "CANTÙ",
     "Provincia": "CO",
+    "Indirizzo": "VIA DOMEA, 4 - CANTÙ (CO)",
     "Ente": "ASST LARIANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16576,27 +16897,29 @@
     "Longitudine": 9.1450853
   },
   {
-    "Nome": "CASA DI COMUNITA' BORGAZZI MONZA",
-    "Indirizzo": "VIA BORGAZZI",
+    "Nome": "CASA DI COMUNITÀ BORGAZZI MONZA",
     "Città": "MONZA",
     "Provincia": "MB",
+    "Indirizzo": "VIA BORGAZZI, 67 - MONZA (MB)",
     "Ente": "ASST DELLA BRIANZA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5604051,
-    "Longitudine": 9.2555617
+    "Latitudine": 45.5611487,
+    "Longitudine": 9.2567269
   },
   {
-    "Nome": "CASA DI COMUNITA' LIBERTA' PONTE SAN PIETRO",
-    "Indirizzo": "PIAZZA LIBERTA', 5",
+    "Nome": "CASA DI COMUNITÀ LIBERTÀ PONTE SAN PIETRO",
     "Città": "PONTE SAN PIETRO",
     "Provincia": "BG",
+    "Indirizzo": "PIAZZA LIBERTA', 5 - PONTE SAN PIETRO (BG)",
     "Ente": "ASST DI BERGAMO OVEST",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16604,41 +16927,44 @@
     "Longitudine": 11.827243
   },
   {
-    "Nome": "CASA DI COMUNITA' GEN. REVERBERI VESTONE",
-    "Indirizzo": "VIA GEN. REVERBERI, 2",
+    "Nome": "CASA DI COMUNITÀ GEN. REVERBERI VESTONE",
     "Città": "VESTONE",
     "Provincia": "BS",
+    "Indirizzo": "VIA GENERALE L. REVERBERI, 2 - VESTONE (BS)",
     "Ente": "ASST DEL GARDA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.7106124,
-    "Longitudine": 10.4042112
+    "Latitudine": 45.7043645,
+    "Longitudine": 10.3857049
   },
   {
-    "Nome": "CASA DI COMUNITA' GUIDO ROZZANO",
-    "Indirizzo": "VIA PERSEGHETTO /V. GUIDO ROSSA",
+    "Nome": "CASA DI COMUNITÀ GUIDO ROZZANO",
     "Città": "ROZZANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA DEI GLICINI, 14 - ROZZANO (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.3829973,
-    "Longitudine": 9.1545305
+    "Latitudine": 45.3863394,
+    "Longitudine": 9.1576214
   },
   {
-    "Nome": "CASA DI COMUNITA' S. FRANCESCO - CAMPANIA MELEGNANO",
-    "Indirizzo": "VIA S. FRANCESCO",
+    "Nome": "CASA DI COMUNITÀ S. FRANCESCO - CAMPANIA MELEGNANO",
     "Città": "MELEGNANO",
     "Provincia": "MI",
+    "Indirizzo": "VIA S. FRANCESCO - MELEGNANO (MI)",
     "Ente": "ASST MELEGNANO E DELLA MARTESANA",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
@@ -16646,13 +16972,14 @@
     "Longitudine": 9.3193828
   },
   {
-    "Nome": "CASA DI COMUNITA' SOLFERINO MONZA",
-    "Indirizzo": "VIA SOLFERINO, 16",
+    "Nome": "CASA DI COMUNITÀ SOLFERINO MONZA",
     "Città": "MONZA",
     "Provincia": "MB",
+    "Indirizzo": "VIA SOLFERINO, 16 - MONZA (MB)",
     "Ente": "IRCCS S. GERARDO",
+    "Classificazione": "CASA DI COMUNITÀ",
     "Aree_specialistiche": [],
-    "Rating_globale": null,
+    "Rating_globale": NaN,
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},

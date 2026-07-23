@@ -697,15 +697,11 @@ def google_maps_url(osp: dict) -> str:
     q = f"{osp['Nome']}, {osp['Indirizzo']}, {osp['Città']}"
     return f"https://www.google.com/maps/search/?api=1&query={quote_plus(q)}"
 
-
 def _rating_display(osp: dict, reparto_nome: str) -> Optional[float]:
-    """Rating da mostrare a video (SOLO informativo, non entra in alcun
-    calcolo/punteggio): quello del reparto specifico se presente in
-    Aree_specialistiche, altrimenti il Rating_globale dell'ospedale."""
     for area in osp.get("Aree_specialistiche") or []:
         if area.get("Nome", "").upper() == (reparto_nome or "").upper():
             rating = area.get("Rating")
-            if rating is not None:
+            if rating is not None and not (isinstance(rating, float) and math.isnan(rating)):
                 return rating
             break
     return osp.get("Rating_globale")
@@ -837,10 +833,7 @@ _C_TEAL2 = "#009E94"
 
 
 def _stelle_html(rating: Optional[float]) -> str:
-    """Indicatore a stelle (riempimento 0-5) — SOLO display, nessun calcolo.
-    Usa un overlay di stelle piene sopra stelle vuote, larghezza proporzionale
-    al rating, per un riempimento parziale fedele (es. 4.3 → ~86%)."""
-    if rating is None:
+    if rating is None or (isinstance(rating, float) and math.isnan(rating)):
         return (
             '<span style="font-size:.76rem;color:#94a3b8;font-weight:600">'
             "Rating non disponibile</span>"
