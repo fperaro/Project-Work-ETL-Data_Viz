@@ -322,8 +322,8 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.6512517,
-    "Longitudine": 10.2583022
+    "Latitudine": 45.6513888,
+    "Longitudine": 10.2549352
   },
   {
     "Nome": "OSPEDALE DI SEREGNO",
@@ -1019,8 +1019,8 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 44.9745281,
-    "Longitudine": 10.4599816
+    "Latitudine": 44.9732538,
+    "Longitudine": 10.457108
   },
   {
     "Nome": "OSPEDALE CIVILE LA MEMORIA DI GAVARDO",
@@ -1127,8 +1127,8 @@
       "Qualità dei pasti": 4.3,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.5882852,
-    "Longitudine": 10.4385455
+    "Latitudine": 45.5929679,
+    "Longitudine": 10.4417413
   },
   {
     "Nome": "OSPEDALE MACEDONIO MELLONI DI MILANO",
@@ -1276,9 +1276,9 @@
   },
   {
     "Nome": "OSPEDALE CIVILE DESTRA SECCHIA DI PIEVE DI CORIANO",
-    "Città": "BORGO MANTOVANO",
+    "Città": "PIEVE DI CORIANO",
     "Provincia": "MN",
-    "Indirizzo": "VIA BUGATTE, 1 - BORGO MANTOVANO (MN)",
+    "Indirizzo": "VIA BUGATTE, 1 - PIEVE DI CORIANO (MN)",
     "Ente": "ASST MANTOVA",
     "Classificazione": "SPOKE",
     "Aree_specialistiche": [
@@ -1373,8 +1373,8 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.0360408,
-    "Longitudine": 11.1172086
+    "Latitudine": 45.035801,
+    "Longitudine": 11.1173373
   },
   {
     "Nome": "OSPEDALE BOLOGNINI DI SERIATE",
@@ -1981,8 +1981,8 @@
       "Qualità dei pasti": 4.6,
       "Gestione delle visite dei parenti": 4.8
     },
-    "Latitudine": 45.6265974,
-    "Longitudine": 9.1961849
+    "Latitudine": 45.6264851,
+    "Longitudine": 9.1961165
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO ALESSANDRO MANZONI DI LECCO",
@@ -2139,8 +2139,8 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.8536966,
-    "Longitudine": 9.4124493
+    "Latitudine": 45.8523467,
+    "Longitudine": 9.4133667
   },
   {
     "Nome": "IRCCS MAUGERI PAVIA",
@@ -2385,8 +2385,8 @@
       "Qualità dei pasti": 5.0,
       "Gestione delle visite dei parenti": 3.0
     },
-    "Latitudine": 45.7701775,
-    "Longitudine": 9.2715865
+    "Latitudine": 45.7705718,
+    "Longitudine": 9.2704936
   },
   {
     "Nome": "OSPEDALE DI CIRCOLO E FONDAZIONE MACCHI DI VARESE",
@@ -3095,8 +3095,8 @@
       "Qualità dei pasti": 4.4,
       "Gestione delle visite dei parenti": 4.5
     },
-    "Latitudine": 45.5107852,
-    "Longitudine": 9.1874665
+    "Latitudine": 45.5106614,
+    "Longitudine": 9.1880256
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO DI RHO",
@@ -3849,8 +3849,8 @@
       "Qualità dei pasti": 3.9,
       "Gestione delle visite dei parenti": 4.6
     },
-    "Latitudine": 45.6010121,
-    "Longitudine": 9.2580577
+    "Latitudine": 45.602275,
+    "Longitudine": 9.2604939
   },
   {
     "Nome": "FONDAZIONE ISTITUTO NEUROLOGICO MONDINO DI PAVIA",
@@ -4076,8 +4076,8 @@
       "Qualità dei pasti": 3.5,
       "Gestione delle visite dei parenti": 4.1
     },
-    "Latitudine": 45.2745968,
-    "Longitudine": 9.4424427
+    "Latitudine": 45.2746433,
+    "Longitudine": 9.4425074
   },
   {
     "Nome": "CENTRO CARDIOLOGICO MONZINO DI MILANO",
@@ -6710,8 +6710,8 @@
       "Qualità dei pasti": 3.8,
       "Gestione delle visite dei parenti": 3.9
     },
-    "Latitudine": 45.5559495,
-    "Longitudine": 10.2318187
+    "Latitudine": 45.5592015,
+    "Longitudine": 10.2304347
   },
   {
     "Nome": "OSPEDALE BASSINI DI CINISELLO BALSAMO",
@@ -6837,8 +6837,8 @@
       "Qualità dei pasti": 3.2,
       "Gestione delle visite dei parenti": 4.3
     },
-    "Latitudine": 45.5464583,
-    "Longitudine": 9.2154996
+    "Latitudine": 45.5465428,
+    "Longitudine": 9.2143294
   },
   {
     "Nome": "NUOVO OSPEDALE DI BRONI E STRADELLA",
@@ -6909,8 +6909,8 @@
       "Qualità dei pasti": 3.0,
       "Gestione delle visite dei parenti": 3.5
     },
-    "Latitudine": 45.077764,
-    "Longitudine": 9.2873989
+    "Latitudine": 45.0775802,
+    "Longitudine": 9.2872794
   },
   {
     "Nome": "IRCCS SANTA MARIA NASCENTE DI MILANO - FONDAZIONE DON CARLO GNOCCHI",
@@ -7011,8 +7011,8 @@
       "Chiarezza delle informazioni amministrative e organizzative": 3.0,
       "Qualità dei pasti": 2.0
     },
-    "Latitudine": 45.4736264,
-    "Longitudine": 9.1265734
+    "Latitudine": 45.4741397,
+    "Longitudine": 9.1259062
   },
   {
     "Nome": "OSPEDALE DEI BAMBINI VITTORE BUZZI DI MILANO",
@@ -7392,8 +7392,8 @@
       "Qualità dei pasti": 4.0,
       "Gestione delle visite dei parenti": 5.0
     },
-    "Latitudine": 45.5335678,
-    "Longitudine": 9.4141114
+    "Latitudine": 45.53464,
+    "Longitudine": 9.4134439
   },
   {
     "Nome": "IRCCS POLICLINICO SAN DONATO DI SAN DONATO MILANESE - GRUPPO SAN DONATO",
@@ -8322,8 +8322,8 @@
       "Qualità dei pasti": 4.0,
       "Gestione delle visite dei parenti": 3.7
     },
-    "Latitudine": 46.2152139,
-    "Longitudine": 10.1772596
+    "Latitudine": 46.1786137,
+    "Longitudine": 9.9537668
   },
   {
     "Nome": "INRCA PRESIDIO OSPEDALIERO DI RICERCA DI CASATENOVO",
@@ -9423,8 +9423,8 @@
       "Qualità dei pasti": 3.0,
       "Gestione delle visite dei parenti": 4.0
     },
-    "Latitudine": 45.2536092,
-    "Longitudine": 8.7430551
+    "Latitudine": 45.2509063,
+    "Longitudine": 8.751228
   },
   {
     "Nome": "OSPEDALE DI ASOLA",
@@ -9748,8 +9748,8 @@
       "Qualità dei pasti": 2.7,
       "Gestione delle visite dei parenti": 3.3
     },
-    "Latitudine": 45.8149483,
-    "Longitudine": 9.2240271
+    "Latitudine": 45.8154509,
+    "Longitudine": 9.2248286
   },
   {
     "Nome": "OSPEDALE CIVILE DI VOGHERA",
@@ -10010,8 +10010,8 @@
       "Qualità dei pasti": 3.0,
       "Gestione delle visite dei parenti": 3.7
     },
-    "Latitudine": 45.6073471,
-    "Longitudine": 9.3547962
+    "Latitudine": 45.6084744,
+    "Longitudine": 9.3557814
   },
   {
     "Nome": "OSPEDALE DI TRADATE",
@@ -10451,8 +10451,8 @@
       "Qualità dei pasti": 2.4,
       "Gestione delle visite dei parenti": 2.6
     },
-    "Latitudine": 45.1427065,
-    "Longitudine": 10.7726183
+    "Latitudine": 45.1443094,
+    "Longitudine": 10.7738404
   },
   {
     "Nome": "IRCCS MAUGERI MILANO",
@@ -11275,8 +11275,8 @@
       "Qualità dei pasti": 2.2,
       "Gestione delle visite dei parenti": 2.2
     },
-    "Latitudine": 45.7930437,
-    "Longitudine": 9.0468015
+    "Latitudine": 45.802113,
+    "Longitudine": 9.0396312
   },
   {
     "Nome": "OSPEDALE G. CASATI DI PASSIRANA",
@@ -11597,8 +11597,8 @@
       "Qualità dei pasti": 1.7,
       "Gestione delle visite dei parenti": 1.9
     },
-    "Latitudine": 45.536567,
-    "Longitudine": 9.219285
+    "Latitudine": 45.5366578,
+    "Longitudine": 9.2184097
   },
   {
     "Nome": "OSPEDALE CIVILE DI VIGEVANO",
@@ -12534,8 +12534,8 @@
     "N_valutazioni": 0,
     "N_aree": 3,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5238812,
-    "Longitudine": 10.2025689
+    "Latitudine": 45.5223896,
+    "Longitudine": 10.2020833
   },
   {
     "Nome": "IRCCS MAUGERI CASTEL GOFFREDO",
@@ -13699,8 +13699,8 @@
     "N_valutazioni": 0,
     "N_aree": 17,
     "Rating_dimensioni": {},
-    "Latitudine": 45.8166408,
-    "Longitudine": 10.071838
+    "Latitudine": 45.8191951,
+    "Longitudine": 10.0757281
   },
   {
     "Nome": "OSPEDALE SS. ANNUNZIATA DI VARZI",
@@ -13953,8 +13953,8 @@
     "N_valutazioni": 0,
     "N_aree": 12,
     "Rating_dimensioni": {},
-    "Latitudine": 46.1336867,
-    "Longitudine": 9.5734515
+    "Latitudine": 46.133897,
+    "Longitudine": 9.5740462
   },
   {
     "Nome": "PRESIDIO OSPEDALIERO TRIBANDI PAVONI DI ORZINUOVI",
@@ -14343,8 +14343,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5550061,
-    "Longitudine": 10.081445
+    "Latitudine": 45.5547313,
+    "Longitudine": 10.0850862
   },
   {
     "Nome": "CASA DI COMUNITÀ OSPEDALE CALCINATE",
@@ -14448,8 +14448,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 46.1336867,
-    "Longitudine": 9.5734515
+    "Latitudine": 46.133897,
+    "Longitudine": 9.5740462
   },
   {
     "Nome": "CASA DI COMUNITÀ GINESTRA CUSANO MILANINO",
@@ -14553,8 +14553,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5118231,
-    "Longitudine": 10.3276552
+    "Latitudine": 45.5108409,
+    "Longitudine": 10.3263442
   },
   {
     "Nome": "CASA DI COMUNITÀ BETTINI QUISTELLO",
@@ -14643,8 +14643,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6820632,
-    "Longitudine": 9.7282136
+    "Latitudine": 45.6844191,
+    "Longitudine": 9.7267728
   },
   {
     "Nome": "CASA DI COMUNITÀ EUROPA PONTE DI LEGNO",
@@ -14733,8 +14733,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5348379,
-    "Longitudine": 9.2812247
+    "Latitudine": 45.534888,
+    "Longitudine": 9.281078
   },
   {
     "Nome": "CASA DI COMUNITÀ GOLA MILANO",
@@ -14958,8 +14958,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.2212634,
-    "Longitudine": 10.4112314
+    "Latitudine": 45.2217749,
+    "Longitudine": 10.4110526
   },
   {
     "Nome": "CASA DI COMUNITÀ GARIBALDI BERGAMO",
@@ -15003,8 +15003,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5215609,
-    "Longitudine": 9.1639709
+    "Latitudine": 45.5215469,
+    "Longitudine": 9.1641289
   },
   {
     "Nome": "CASA DI COMUNITÀ VILLA SIRONI GIOVINE ITALIA GALLARATE",
@@ -15123,8 +15123,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.0640602,
-    "Longitudine": 9.2636422
+    "Latitudine": 45.0651852,
+    "Longitudine": 9.2646212
   },
   {
     "Nome": "CASA DI COMUNITÀ FLEMMING CASALPUSTERLENGO",
@@ -15303,8 +15303,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.6310709,
-    "Longitudine": 9.1659075
+    "Latitudine": 45.631596,
+    "Longitudine": 9.1577592
   },
   {
     "Nome": "CASA DI COMUNITÀ BERNASCONI LISSONE",
@@ -15363,8 +15363,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.7315993,
-    "Longitudine": 9.7285528
+    "Latitudine": 45.7305075,
+    "Longitudine": 9.7286319
   },
   {
     "Nome": "CASA DI COMUNITÀ MONTEREGGIO CASATENOVO",
@@ -15408,8 +15408,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.607601,
-    "Longitudine": 8.8503178
+    "Latitudine": 45.6077483,
+    "Longitudine": 8.8503135
   },
   {
     "Nome": "CASA DI COMUNITÀ PEDROTTI TIRANO",
@@ -15573,8 +15573,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5709803,
-    "Longitudine": 9.1668911
+    "Latitudine": 45.5699551,
+    "Longitudine": 9.1706644
   },
   {
     "Nome": "CASA DI COMUNITÀ BARONI",
@@ -15633,8 +15633,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.4585764,
-    "Longitudine": 9.1575835
+    "Latitudine": 45.4588712,
+    "Longitudine": 9.1584981
   },
   {
     "Nome": "CASA DI COMUNITÀ LUIGI CADORNA SUZZARA",
@@ -15738,8 +15738,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5735845,
-    "Longitudine": 9.3543178
+    "Latitudine": 45.5735554,
+    "Longitudine": 9.3545965
   },
   {
     "Nome": "CASA DI COMUNITÀ MONTE GRAPPA - GARIBALDI RIVOLTA D'ADDA",
@@ -15783,8 +15783,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.8182748,
-    "Longitudine": 10.0735104
+    "Latitudine": 45.817694,
+    "Longitudine": 10.0736979
   },
   {
     "Nome": "CASA DI COMUNITÀ SANT'ANNA ALBINO",
@@ -16038,8 +16038,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.5335678,
-    "Longitudine": 9.4141114
+    "Latitudine": 45.53464,
+    "Longitudine": 9.4134439
   },
   {
     "Nome": "CASA DI COMUNITÀ PAPA GIOVANNI XXIII GARDONE VAL TROMPIA",
@@ -16218,8 +16218,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 44.8218056,
-    "Longitudine": 9.1981902
+    "Latitudine": 44.8222237,
+    "Longitudine": 9.1948376
   },
   {
     "Nome": "CASA DI COMUNITÀ ANDREETTI CENTRO VALLE INTELVI",
@@ -16233,8 +16233,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.9670471,
-    "Longitudine": 9.077364
+    "Latitudine": 45.9667593,
+    "Longitudine": 9.0795515
   },
   {
     "Nome": "CASA DI COMUNITÀ MONTEBELLO CASTEGGIO",
@@ -16473,8 +16473,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 46.5278173,
-    "Longitudine": 10.1357484
+    "Latitudine": 46.5262838,
+    "Longitudine": 10.133854
   },
   {
     "Nome": "CASA DI COMUNITÀ MONTEGRAPPA VIGEVANO",
@@ -16623,8 +16623,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.2536092,
-    "Longitudine": 8.7430551
+    "Latitudine": 45.2509063,
+    "Longitudine": 8.751228
   },
   {
     "Nome": "CASA DI COMUNITÀ CALUSCO D'ADDA",
@@ -16758,8 +16758,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.1482715,
-    "Longitudine": 10.7747135
+    "Latitudine": 45.1474852,
+    "Longitudine": 10.7764241
   },
   {
     "Nome": "CASA DI COMUNITÀ CESARE BATTISTI SERMIDE E FELONICA",
@@ -16818,8 +16818,8 @@
     "N_valutazioni": null,
     "N_aree": null,
     "Rating_dimensioni": {},
-    "Latitudine": 45.1560492,
-    "Longitudine": 9.3126653
+    "Latitudine": 45.1591415,
+    "Longitudine": 9.3133754
   },
   {
     "Nome": "CASA DI COMUNITÀ RAMPANONE LOMAZZO",
