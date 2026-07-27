@@ -392,7 +392,7 @@ def analizza_sintomi(testo: str, profilo: Optional[dict] = None) -> dict:
              f'{_descrivi_paziente(profilo)}\n'
              f'Devi restituire tre informazioni:\n'
              f'1. "isCritical": "Y" se c\'è pericolo di vita imminente o un\'emergenza '
-             f'che richiede intervento immediato (es. dolore toracico, difficoltà '
+             f'che richiede intervento immediato (es. dolore toracico o al braccio sinistro, difficoltà '
              f'respiratoria grave, perdita di coscienza, emorragia importante, '
              f'sospetto ictus o infarto, reazione allergica sistemica). Altrimenti "N".\n'
              f'2. "white": "Y" SOLO se la condizione è chiaramente lieve e non urgente, '
