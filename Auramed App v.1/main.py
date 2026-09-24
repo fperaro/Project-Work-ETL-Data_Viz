@@ -42,6 +42,15 @@ import numpy as np
 import requests as _requests
 from nicegui import ui, app as _nicegui_app
 
+# Affollamento reale dei PS via API E015 (sostituisce i dati casuali).
+import affollamento_e015
+
+# Se True, quando l'API E015 non è disponibile/abbinabile si ricade sui
+# dati di affollamento simulati (utile per demo senza credenziali).
+# Default False: non si mostrano MAI dati finti (i PS non abbinati
+# restano senza dato di affollamento, come le Case di Comunità).
+USA_FALLBACK_SIMULATO = False
+
 
 
 # ════════════════════════════════════════════════════════════════
@@ -97,9 +106,13 @@ DEFAULT_TIMEOUT = 10  # secondi per richiesta HTTP
 TOP_ROUTING = 10
 
 # Le chiamate a calculateRoute vengono eseguite in lotti paralleli di questa
-# dimensione (es. 10 ospedali → 2 lotti da 5 chiamate ciascuno), invece che
-# tutte insieme, per contenere il picco di richieste simultanee verso TomTom.
-ROUTING_BATCH_SIZE = 5
+# dimensione, invece che tutte insieme, per contenere il picco di richieste
+# simultanee verso TomTom. La chiave FREE TomTom ha un limite di ~5 richieste
+# al secondo (QPS): teniamo il lotto sotto quella soglia e mettiamo una breve
+# pausa tra un lotto e l'altro, così non superiamo mai il rate limit (429).
+ROUTING_BATCH_SIZE = 4
+ROUTING_PAUSA_LOTTO_S = 0.8   # pausa tra lotti consecutivi (rispetto del QPS)
+TOMTOM_RETRIES = 3            # ritentativi su HTTP 429 (Too Many Requests)
 
 
 def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -145,18 +158,29 @@ def _tomtom_route(user_pos: dict, osp: dict) -> dict:
     """
     lat, lon = _coord_osp(osp)
     loc = f"{user_pos['lat']},{user_pos['lon']}:{lat},{lon}"
-    resp = _requests.get(
-        f"{TOMTOM_ROUTE_URL}/{loc}/json",
-        params={
-            "key": TOMTOM_KEY,
-            "traffic": "true",               # traffico in tempo reale
-            "travelMode": "car",
-            "routeType": "fastest",
-            "computeTravelTimeFor": "all",   # anche il tempo senza traffico
-            "routeRepresentation": "polyline",  # serve la geometria per i tracciati
-        },
-        timeout=DEFAULT_TIMEOUT,
-    )
+    params = {
+        "key": TOMTOM_KEY,
+        "traffic": "true",               # traffico in tempo reale
+        "travelMode": "car",
+        "routeType": "fastest",
+        "computeTravelTimeFor": "all",   # anche il tempo senza traffico
+        "routeRepresentation": "polyline",  # serve la geometria per i tracciati
+    }
+    # Ritentativi su 429 (Too Many Requests): la chiave FREE ha un QPS basso,
+    # quindi se sforiamo aspettiamo (rispettando l'header Retry-After, se c'è)
+    # e riproviamo. Solo dopo aver esaurito i tentativi lasciamo cadere la
+    # chiamata sul fallback haversine.
+    resp = None
+    for tentativo in range(TOMTOM_RETRIES + 1):
+        resp = _requests.get(
+            f"{TOMTOM_ROUTE_URL}/{loc}/json", params=params, timeout=DEFAULT_TIMEOUT,
+        )
+        if resp.status_code == 429 and tentativo < TOMTOM_RETRIES:
+            ra = resp.headers.get("Retry-After", "")
+            attesa = float(ra) if ra.replace(".", "", 1).isdigit() else 0.7 * (tentativo + 1)
+            time.sleep(attesa)              # backoff: 0.7s, 1.4s, 2.1s (o Retry-After)
+            continue
+        break
     resp.raise_for_status()
     route = resp.json()["routes"][0]
     s = route["summary"]
@@ -175,6 +199,53 @@ def _tomtom_route(user_pos: dict, osp: dict) -> dict:
         "geometria": geom,
         "fallback": False,
     }
+
+
+def _geocode_indirizzo(testo: str) -> Optional[dict]:
+    """Converte un indirizzo scritto dall'utente in coordinate {lat, lon}.
+
+    Serve come alternativa al GPS del browser (quando il permesso è negato,
+    o l'app non gira in HTTPS, es. da smartphone su rete locale). Ristretto
+    all'Italia. Prova prima TomTom (stessa key del routing), poi ripiega su
+    Nominatim (OpenStreetMap, gratuito e senza chiave). Ritorna None se non
+    trova nulla.
+    """
+    q = (testo or "").strip()
+    if not q:
+        return None
+
+    # 1) TomTom Geocoding (stessa API key del routing)
+    if TOMTOM_KEY:
+        try:
+            r = _requests.get(
+                f"https://api.tomtom.com/search/2/geocode/{quote_plus(q)}.json",
+                params={"key": TOMTOM_KEY, "countrySet": "IT", "limit": 1},
+                timeout=DEFAULT_TIMEOUT,
+            )
+            if r.status_code == 200:
+                res = r.json().get("results") or []
+                if res:
+                    p = res[0]["position"]
+                    return {"lat": float(p["lat"]), "lon": float(p["lon"])}
+        except Exception as exc:
+            print(f"[AuraMed] Geocoding TomTom KO: {exc}")
+
+    # 2) Nominatim (OpenStreetMap) come ripiego gratuito
+    try:
+        r = _requests.get(
+            "https://nominatim.openstreetmap.org/search",
+            params={"q": q, "format": "json", "countrycodes": "it", "limit": 1},
+            headers={"User-Agent": "AuraMed/1.0 (progetto universitario UniMiB)"},
+            timeout=DEFAULT_TIMEOUT,
+        )
+        if r.status_code == 200:
+            res = r.json()
+            if res:
+                return {"lat": float(res[0]["lat"]), "lon": float(res[0]["lon"])}
+    except Exception as exc:
+        print(f"[AuraMed] Geocoding Nominatim KO: {exc}")
+
+    return None
 
 
 def stima_tempi_ospedali(user_pos: dict, ospedali: list[dict]) -> list[dict]:
@@ -198,7 +269,8 @@ def stima_tempi_ospedali(user_pos: dict, ospedali: list[dict]) -> list[dict]:
         return [_fallback_tempo(user_pos, o) for o in ospedali]
 
     risultati: list[Optional[dict]] = [None] * len(ospedali)
-    for inizio in range(0, len(ospedali), ROUTING_BATCH_SIZE):
+    lotti = list(range(0, len(ospedali), ROUTING_BATCH_SIZE))
+    for n_lotto, inizio in enumerate(lotti):
         lotto = list(enumerate(ospedali))[inizio:inizio + ROUTING_BATCH_SIZE]
         with ThreadPoolExecutor(max_workers=len(lotto)) as ex:
             futuri = {ex.submit(_tomtom_route, user_pos, o): i for i, o in lotto}
@@ -210,6 +282,9 @@ def stima_tempi_ospedali(user_pos: dict, ospedali: list[dict]) -> list[dict]:
                     print(f"[AuraMed] TomTom KO su '{ospedali[i].get('Nome')}' "
                           f"({exc}) — fallback haversine")
                     risultati[i] = _fallback_tempo(user_pos, ospedali[i])
+        # Breve pausa prima del lotto successivo per non superare il QPS FREE.
+        if n_lotto < len(lotti) - 1:
+            time.sleep(ROUTING_PAUSA_LOTTO_S)
     return risultati
 
 
@@ -380,7 +455,9 @@ def analizza_sintomi(testo: str, profilo: Optional[dict] = None) -> dict:
     """
     client = _get_openai_client()
     if not client:
-        return _mock_analisi(testo, profilo)
+        r = _mock_analisi(testo, profilo)
+        r["_fonte"] = "mock (nessuna key OpenAI)"
+        return r
 
     try:
         # Minimizzazione: rimuovi identificativi prima dell'invio esterno.
@@ -438,10 +515,14 @@ def analizza_sintomi(testo: str, profilo: Optional[dict] = None) -> dict:
                 "content": [{"type": "input_text", "text": prompt}],
             }],
         )
-        return json.loads(response.output_text)
+        r = json.loads(response.output_text)
+        r["_fonte"] = "gpt"
+        return r
     except Exception as exc:
         print(f"[AuraMed] OpenAI error: {exc} — fallback mock")
-        return _mock_analisi(testo)
+        r = _mock_analisi(testo)
+        r["_fonte"] = "mock (errore API OpenAI)"
+        return r
 
 
 def _mock_analisi(testo: str, profilo: Optional[dict] = None) -> dict:
@@ -559,7 +640,10 @@ def score_ps(snapshot: dict, tempo_min: float, reparto_match: bool) -> float:
     ╚─────────────────────────────────────────────────────────────╝
     """
     T = max(-1, 1.0 - (tempo_min / 90.0))
-    A = 1.0 - snapshot["affollamento"]
+    aff = snapshot.get("affollamento")
+    # Se l'affollamento reale non è disponibile, contributo neutro (A=0)
+    # invece di far fallire il calcolo.
+    A = (1.0 - aff) if aff is not None else 0.0
     R = 1.0 if reparto_match else 0.0
     return round(0.65 * T + 0.25 * A + 0.1 * R, 4)
 
@@ -594,12 +678,34 @@ try:
     _neo4j_uri_no_ssl_scheme = NEO4J_URI.replace("neo4j+s://", "neo4j://").replace(
         "bolt+s://", "bolt://"
     )
-    _neo4j_driver = _GraphDatabase.driver(
-        _neo4j_uri_no_ssl_scheme,
+    # Opzioni di resilienza del pool. Aura chiude le connessioni rimaste
+    # INATTIVE: senza questi parametri il driver riusa una connessione ormai
+    # "morta" e la prima query dopo una pausa fallisce (ConnectionResetError
+    # 10054 / "defunct connection"). Con liveness_check_timeout il driver
+    # verifica (ping) le connessioni inattive prima di riusarle, e
+    # max_connection_lifetime le ricicla periodicamente.
+    _driver_kwargs = dict(
         auth=(NEO4J_USER, NEO4J_PASSWORD),
         encrypted=True,
         trusted_certificates=TrustCustomCAs(certifi.where()),
+        max_connection_lifetime=300,          # ricicla le connessioni ogni 5 min
+        liveness_check_timeout=30,            # verifica quelle inattive da >30s
+        connection_acquisition_timeout=30,
+        keep_alive=True,
+        max_connection_pool_size=20,          # regge più utenti in parallelo
     )
+    try:
+        _neo4j_driver = _GraphDatabase.driver(_neo4j_uri_no_ssl_scheme, **_driver_kwargs)
+    except Exception as _cfg_err:
+        # Driver troppo vecchio per qualche opzione: riprovo con la config
+        # minima, senza perdere del tutto Neo4j.
+        print(f"[AuraMed] Opzioni driver Neo4j non supportate ({_cfg_err}); uso config base")
+        _neo4j_driver = _GraphDatabase.driver(
+            _neo4j_uri_no_ssl_scheme,
+            auth=(NEO4J_USER, NEO4J_PASSWORD),
+            encrypted=True,
+            trusted_certificates=TrustCustomCAs(certifi.where()),
+        )
     _neo4j_driver.verify_connectivity()
     with _neo4j_driver.session(database=NEO4J_DATABASE) as _s:
         _s.run("CREATE INDEX area_nome IF NOT EXISTS FOR (a:AreaSpecialistica) ON (a.Nome)")
@@ -664,12 +770,17 @@ def strutture_con_reparti(reparto: str) -> dict:
         ELSE 0
     END AS isReparto"""
     params: dict = {"reparto": reparto}
-    try:
-        with _neo4j_driver.session(database=NEO4J_DATABASE) as s:
-            return {r["nome"]: r["isReparto"] for r in s.run(cypher, **params)}
-    except Exception as exc:
-        print(f"[AuraMed] Errore query Neo4j: {exc} — fallback locale")
-        return {}
+    # Un ritentativo: se il pool restituisce una connessione stantia, il
+    # secondo giro ne ottiene una nuova (grazie a liveness_check_timeout).
+    ultimo_err = None
+    for _ in range(2):
+        try:
+            with _neo4j_driver.session(database=NEO4J_DATABASE) as s:
+                return {r["nome"]: r["isReparto"] for r in s.run(cypher, **params)}
+        except Exception as exc:
+            ultimo_err = exc
+    print(f"[AuraMed] Errore query Neo4j: {ultimo_err} — fallback locale")
+    return {}
 
 
 
@@ -778,10 +889,18 @@ def cerca_strutture(
             # conosciamo il numero di persone in attesa, quindi non lo
             # inventiamo (nessuno snapshot affollamento/pazienti).
             snap = {"codici": None, "n_pazienti": None, "affollamento": None}
-        elif hub:
-            snap = snapshot_ps(10, 80, 180)
         else:
-            snap = snapshot_ps(5, 40, 100)
+            # Affollamento REALE del PS via API E015 (indice di affollamento
+            # e pazienti in attesa per codice triage). Stessa forma dello
+            # snapshot simulato, così card e scoring restano invariati.
+            snap = affollamento_e015.get_affollamento(osp)
+            if snap is None:
+                # API non disponibile / PS non abbinato / PS chiuso:
+                # fallback ai dati simulati solo se esplicitamente abilitato.
+                if USA_FALLBACK_SIMULATO:
+                    snap = snapshot_ps(10, 80, 180) if hub else snapshot_ps(5, 40, 100)
+                else:
+                    snap = {"codici": None, "n_pazienti": None, "affollamento": None}
 
         is_reparto    = grafo.get(osp.get("Nome"))   # 1, 0, o None (critico/fallback/bianco)
         reparto_match = is_reparto == 1
@@ -816,6 +935,32 @@ def cerca_strutture(
         })
 
     risultati.sort(key=lambda x: x["_punteggio"], reverse=True)
+
+    # ── Riepilogo di stato dei servizi per QUESTA ricerca ──────────────
+    # Una riga sola in console: dice a colpo d'occhio se qualche servizio
+    # è caduto ed è subentrato un ripiego (fallback), senza dover cercare
+    # tra i log. Utile durante le demo.
+    n_tot      = len(percorsi)
+    n_ripiego  = sum(1 for p in percorsi if p.get("fallback"))
+    n_reali    = n_tot - n_ripiego
+    n_e015     = sum(1 for r in risultati
+                     if (r.get("_snapshot") or {}).get("affollamento") is not None)
+    if is_white:
+        neo4j_txt = "n/d (codice bianco)"
+    elif _neo4j_driver is None:
+        neo4j_txt = "OFFLINE (ripiego locale)"
+    elif not grafo:
+        neo4j_txt = "query fallita (ripiego locale)"
+    else:
+        neo4j_txt = "OK"
+    tomtom_txt = (f"{n_reali}/{n_tot} reali"
+                  + (f" · {n_ripiego} RIPIEGO haversine" if n_ripiego else ""))
+    e015_txt   = (f"{n_e015}/{len(risultati)} PS con dato"
+                  if not is_white else "n/d (Case di Comunità)")
+    triage_txt = analisi.get("_fonte", "?")
+    print(f"[AuraMed][STATO] Triage: {triage_txt} | Neo4j: {neo4j_txt} | "
+          f"E015 affollamento: {e015_txt} | TomTom: {tomtom_txt}")
+
     return risultati[:top_n], is_critical
 
 
@@ -853,12 +998,23 @@ def _stelle_html(rating: Optional[float]) -> str:
 
 
 def _affollamento_info(val: float) -> tuple[str, str, str]:
-    if val < 0.35:
-        return "Basso",  "#dcfce7", "#15803d"
-    elif val < 0.70:
-        return "Medio",  "#fef9c3", "#854d0e"
+    # Classificazione ufficiale Indice di Affollamento (descrittore E015,
+    # Tabella 2). 'val' è l'indice IA/100: 0.50=50, 1.00=100, ...
+    #   IA ≤ 50  Verde   - Normale attività
+    #   IA ≤ 100 Giallo  - Affollato (intensa attività)
+    #   IA ≤ 140 Arancio - Sovraffollato (sistema sovraccarico)
+    #   IA ≤ 180 Rosso   - Pericolo (sistema insufficiente)
+    #   IA > 180 Nero    - Collasso (estremo sovraffollamento)
+    if val <= 0.50:
+        return "Normale",       "#dcfce7", "#15803d"
+    elif val <= 1.00:
+        return "Affollato",     "#fef9c3", "#854d0e"
+    elif val <= 1.40:
+        return "Sovraffollato", "#ffedd5", "#c2410c"
+    elif val <= 1.80:
+        return "Pericolo",      "#fee2e2", "#b91c1c"
     else:
-        return "Alto",   "#fee2e2", "#b91c1c"
+        return "Collasso",      "#e5e7eb", "#111827"
 
 
 @ui.page("/")
@@ -1048,6 +1204,85 @@ def pagina_principale() -> None:
                     .style("font-size:.92rem")
                 )
 
+                # ── Posizione di partenza (GPS del browser o indirizzo) ──
+                # Sostituisce il punto casuale: la ricerca parte da dove si
+                # trova davvero l'utente. GPS via browser (richiede permesso
+                # e contesto sicuro: HTTPS o localhost); in alternativa un
+                # indirizzo digitato, geocodificato lato server.
+                gps_pos = {"lat": None, "lon": None, "acc": None}
+
+                async def _rileva_gps() -> Optional[dict]:
+                    """Chiede la posizione al browser (navigator.geolocation)."""
+                    try:
+                        coords = await ui.run_javascript(
+                            """
+                            return await new Promise((resolve) => {
+                                if (!navigator.geolocation) { resolve(null); return; }
+                                navigator.geolocation.getCurrentPosition(
+                                    p => resolve({lat: p.coords.latitude,
+                                                  lon: p.coords.longitude,
+                                                  acc: p.coords.accuracy}),
+                                    e => resolve(null),
+                                    {enableHighAccuracy: true, timeout: 10000, maximumAge: 0}
+                                );
+                            });
+                            """,
+                            timeout=15.0,
+                        )
+                    except Exception:
+                        return None
+                    if isinstance(coords, dict) and coords.get("lat") is not None:
+                        return coords
+                    return None
+
+                with ui.row().classes("w-full items-center gap-2 mt-3 flex-wrap"):
+                    indirizzo_input = (
+                        ui.input(
+                            placeholder="La tua posizione: via e città "
+                                        "(oppure usa il GPS →)"
+                        )
+                        .props("outlined dense clearable")
+                        .classes("flex-grow")
+                        .style("min-width:230px;font-size:.85rem")
+                    )
+                    gps_btn = (
+                        ui.button("📍 La mia posizione")
+                        .props("no-caps outline color=teal")
+                        .style("border-radius:10px;font-size:.8rem;font-weight:600")
+                    )
+                    pos_label = ui.html(
+                        '<span style="font-size:.73rem;color:#94a3b8">'
+                        'Posizione non impostata</span>'
+                    )
+
+                async def _on_gps() -> None:
+                    gps_btn.disable()
+                    pos_label.set_content(
+                        '<span style="font-size:.73rem;color:#94a3b8">'
+                        'Rilevamento in corso…</span>'
+                    )
+                    p = await _rileva_gps()
+                    gps_btn.enable()
+                    if p:
+                        gps_pos.update({"lat": p["lat"], "lon": p["lon"],
+                                        "acc": p.get("acc")})
+                        indirizzo_input.value = ""   # GPS ha priorità
+                        acc = (f" (±{round(p['acc'])} m)"
+                               if p.get("acc") else "")
+                        pos_label.set_content(
+                            '<span style="font-size:.73rem;color:#15803d;'
+                            f'font-weight:600">📍 Posizione rilevata{acc}</span>'
+                        )
+                    else:
+                        gps_pos.update({"lat": None, "lon": None, "acc": None})
+                        pos_label.set_content(
+                            '<span style="font-size:.73rem;color:#b45309">'
+                            'Permesso negato o non disponibile — inserisci un '
+                            'indirizzo</span>'
+                        )
+
+                gps_btn.on_click(_on_gps)
+
                 with ui.row().classes(
                     "w-full items-center justify-between mt-4 flex-wrap gap-3"
                 ):
@@ -1152,7 +1387,34 @@ def pagina_principale() -> None:
         results_col.clear()
         await asyncio.sleep(0.05)
 
-        POSIZIONE_UTENTE.update(_random_point_lombardia())
+        # ── Posizione di partenza REALE (niente più punto casuale) ──
+        # Precedenza: indirizzo digitato → GPS già rilevato → tentativo GPS
+        # al volo. Se non si ottiene nulla, si avvisa e ci si ferma: meglio
+        # nessun risultato che risultati calcolati da un punto inventato.
+        loop = asyncio.get_event_loop()
+        ind = (indirizzo_input.value or "").strip()
+        origine = None
+        if ind:
+            origine = await loop.run_in_executor(None, _geocode_indirizzo, ind)
+            if not origine:
+                spinner.set_visibility(False)
+                cerca_btn.enable()
+                ui.notify("Indirizzo non trovato. Controlla o usa il GPS.",
+                          type="warning", position="top")
+                return
+        elif gps_pos["lat"] is not None:
+            origine = {"lat": gps_pos["lat"], "lon": gps_pos["lon"]}
+        else:
+            origine = await _rileva_gps()   # chiede il permesso al volo
+            if not origine:
+                spinner.set_visibility(False)
+                cerca_btn.enable()
+                ui.notify("Indica la tua posizione: consenti il GPS "
+                          "oppure scrivi un indirizzo.",
+                          type="warning", position="top")
+                return
+
+        POSIZIONE_UTENTE.update({"lat": origine["lat"], "lon": origine["lon"]})
 
         try:
             loop = asyncio.get_event_loop()
@@ -1364,9 +1626,26 @@ L.circleMarker([{u_lat}, {u_lon}],
 
 # ── Componente card ospedale ────────────────────────────────────
 
+# Stile dei badge per codice triage: emoji, sfondo, testo, bordo.
+# La chiave è l'etichetta prodotta da affollamento_e015 (scala storica a
+# 4 colori R/G/V/B o riforma a 5 R/A/Z/V/B): la card mostra solo i colori
+# effettivamente esposti dal singolo PS, nell'ordine di gravità del dict.
+_STILE_CODICE = {
+    "Rosso":     ("🔴", "#ef4444", "white",   "#ef4444"),
+    "Arancione": ("🟠", "#f97316", "white",   "#f97316"),
+    "Giallo":    ("🟡", "#eab308", "#422006", "#eab308"),
+    "Azzurro":   ("🔵", "#38bdf8", "#0c4a6e", "#38bdf8"),
+    "Verde":     ("🟢", "#22c55e", "white",   "#22c55e"),
+    "Bianco":    ("⚪", "#f8fafc", "#475569", "#cbd5e1"),
+}
+
+
 def _render_card(idx: int, h: dict) -> None:
     snap         = h["_snapshot"]
     ha_affoll    = snap["affollamento"] is not None
+    # I codici triage arrivano dal DETTAGLIO: possono mancare anche quando
+    # l'indice di affollamento (dalla LISTA) è disponibile.
+    ha_codici    = snap.get("codici") is not None
     reparto_disp = h["_reparto_trovato"].title()
     nome         = h["Nome"].title()
     indirizzo    = h["Indirizzo"].title()
@@ -1484,8 +1763,8 @@ def _render_card(idx: int, h: dict) -> None:
         # ── Separatore ────────────────────────────────────────
         ui.element("div").style("border-top:1px solid #f1f5f9;margin-bottom:13px")
 
-        # ── 5 codici triage — solo per strutture con PS reale ─
-        if ha_affoll:
+        # ── 5 codici triage — solo se il DETTAGLIO li ha forniti ─
+        if ha_codici:
             codici = snap["codici"]
             ui.html("""
             <div style="font-size:.68rem;color:#94a3b8;text-transform:uppercase;
@@ -1495,11 +1774,10 @@ def _render_card(idx: int, h: dict) -> None:
             """)
 
             with ui.row().classes("gap-2 flex-wrap items-center"):
-                _badge("🔴", "Rosso",     codici["Rosso"],     "#ef4444", "white",   "#ef4444")
-                _badge("🟠", "Arancione", codici["Arancione"], "#f97316", "white",   "#f97316")
-                _badge("🔵", "Azzurro",   codici["Azzurro"],   "#38bdf8", "#0c4a6e", "#38bdf8")
-                _badge("🟢", "Verde",     codici["Verde"],     "#22c55e", "white",   "#22c55e")
-                _badge("⚪", "Bianco",    codici["Bianco"],    "#f8fafc", "#475569", "#cbd5e1")
+                for nome_col, cnt in codici.items():
+                    st = _STILE_CODICE.get(nome_col)
+                    if st:
+                        _badge(st[0], nome_col, cnt, st[1], st[2], st[3])
 
             ui.element("div").style("border-top:1px solid #f1f5f9;margin:13px 0")
 
@@ -1509,12 +1787,23 @@ def _render_card(idx: int, h: dict) -> None:
                   {snap['n_pazienti']}
                 </strong></span>
                 <span style="color:#e2e8f0">·</span>"""
-            if ha_affoll else ""
+            if ha_codici else ""
+        )
+        # Pazienti già in trattamento dentro il PS: spiega perché l'indice
+        # di affollamento può essere alto anche con pochi in sala d'attesa.
+        n_cura = snap.get("n_trattamento")
+        cura_html = (
+            f"""<span>🩺 In cura: <strong style="color:#64748b">
+                  {n_cura}
+                </strong></span>
+                <span style="color:#e2e8f0">·</span>"""
+            if n_cura is not None else ""
         )
         ui.html(f"""
         <div style="margin-top:12px;font-size:.77rem;color:#94a3b8;
                     display:flex;flex-wrap:wrap;gap:10px;align-items:center">
           {attesa_html}
+          {cura_html}
           <span>📌 {indirizzo}, {citta}</span>
         </div>
         """)
@@ -1545,6 +1834,19 @@ if __name__ in {"__main__", "__mp_main__"}:
     # ── Serve i file statici (loghi, assets) ──────────────────
     _nicegui_app.add_static_files("/assets", str(BASE_DIR))
 
+    # ── Link pubblico temporaneo (NiceGUI "On Air") ───────────
+    # Con la variabile d'ambiente AURAMED_ON_AIR impostata (a qualsiasi
+    # valore), NiceGUI espone l'app dietro un URL https pubblico e
+    # temporaneo (https://on-air.nicegui.io/...), stampato in console
+    # all'avvio: da girare ad amici/telefono, con GPS funzionante perché
+    # è HTTPS. Senza la variabile, l'app resta solo in locale.
+    #   Windows (PowerShell):  $env:AURAMED_ON_AIR="1"; python main.py
+    #   Windows (cmd):         set AURAMED_ON_AIR=1 && python main.py
+    # NB: il link vive finché questo processo è attivo; il traffico passa
+    # dai relay di NiceGUI. Per una demo va bene; le tue API key sono
+    # usate da chiunque apra il link.
+    _on_air = True if os.getenv("AURAMED_ON_AIR") else None
+
     ui.run(
         title="AuraMed — Assistente Medico AI",
         host="0.0.0.0",
@@ -1553,4 +1855,5 @@ if __name__ in {"__main__", "__mp_main__"}:
         favicon="⚕",
         reload=False,
         storage_secret="auramed-lombardia-2025",
+        on_air=_on_air,
     )
